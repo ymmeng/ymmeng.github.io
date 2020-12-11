@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2020-12-11T12:40:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ymmeng.github.io/zh/posts/hello/</loc>
     <lastmod>2020-12-11T12:40:51+08:00</lastmod>
   </url>
@@ -365,10 +370,6 @@
                 hreflang="zh"
                 href="https://ymmeng.github.io/zh/publication/misc/misc_any_folder_name_1/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/</loc>
   </url>
   
   <url>
