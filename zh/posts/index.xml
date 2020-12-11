@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>文章 on 幽梦</title>
+    <link>https://ymmeng.github.io/zh/posts/</link>
+    <description>Recent content in 文章 on 幽梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
+    <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 11 Dec 2020 12:40:51 +0800</lastBuildDate>
+    
+        <atom:link href="https://ymmeng.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Hello</title>
+        <link>https://ymmeng.github.io/zh/posts/hello/</link>
+        <pubDate>Fri, 11 Dec 2020 12:40:51 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 12:40:51 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/hello/</guid>
+        <description></description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/</guid>
+        <description>git submodule 使用 git init 添加父亲 git submodule add https:xxx.com/xxx.git 添加儿子们 git submodule update &amp;ndash;init &amp;ndash; recursive 找回儿子们</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
