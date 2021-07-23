@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>hugo on 幽梦</title>
+    <link>https://ymmeng.github.io/zh/tags/hugo/</link>
+    <description>Recent content in hugo on 幽梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
+    <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 11 Dec 2020 21:11:53 +0800</lastBuildDate>
+    
+        <atom:link href="https://ymmeng.github.io/zh/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>提示框</title>
+        <link>https://ymmeng.github.io/zh/posts/%E6%8F%90%E7%A4%BA%E6%A1%86/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E6%8F%90%E7%A4%BA%E6%A1%86/</guid>
+        <description>提示框 使用方法 1 看起来的样子 warning, success, info, danger this is a text 框 Markdownify框 1 简单的盒子 1 折叠 1 注意 1 标签 1</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

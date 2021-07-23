@@ -250,11 +250,31 @@
   <url>
     <loc>https://ymmeng.github.io/en/tags/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ymmeng.github.io/zh/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ymmeng.github.io/en/tags/hugo/"
+                />
   </url>
   
   <url>
     <loc>https://ymmeng.github.io/en/categories/hugo/</loc>
     <lastmod>2019-12-18T10:33:41+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://ymmeng.github.io/zh/categories/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ymmeng.github.io/en/categories/hugo/"
+                />
   </url>
   
   <url>

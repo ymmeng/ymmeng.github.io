@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>git on 幽梦</title>
+    <link>https://ymmeng.github.io/zh/tags/git/</link>
+    <description>Recent content in git on 幽梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
+    <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 11 Dec 2020 21:11:53 +0800</lastBuildDate>
+    
+        <atom:link href="https://ymmeng.github.io/zh/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>git submodule 使用</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/git-submodule%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/git-submodule%E4%BD%BF%E7%94%A8/</guid>
+        <description>演示 1 2 3 4 5 6 7 8 9 添加父亲，也就是初始化git仓库 git init 添加儿子们，添加子模块 git submodule add https:xxx.com/xxx.git 找回儿子们，因为在clone主仓库的时候，git默认是不会把子模块给clone下来，所以需要使用以下命令 git submodule update --init</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>submodule</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>git submodule 使用</title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/git-submodule%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/git-submodule%E4%BD%BF%E7%94%A8/</guid>
+        <description>演示 1 2 3 4 5 6 7 8 9 添加父亲，也就是初始化git仓库 git init 添加儿子们，添加子模块 git submodule add https:xxx.com/xxx.git 找回儿子们，因为在clone主仓库的时候，git默认是不会把子模块给clone下来，所以需要使用以下命令 git submodule update --init</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>submodule</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>用户模块</title>
+        <link>https://ymmeng.github.io/zh/posts/%E7%94%A8%E6%88%B7%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E7%94%A8%E6%88%B7%E6%A8%A1%E5%9D%97/</guid>
+        <description>用户 接口 User 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 string userID通过用户的uuid查询 users 数据表获取用户的详细信息。 umeta查询后需要做链接到 umetas数据表。通过userid 来查询 umetas 的指定用户字段的所有</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>submodule</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

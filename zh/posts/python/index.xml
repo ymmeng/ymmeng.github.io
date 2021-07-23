@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>学习笔记 on 幽梦</title>
+    <link>https://ymmeng.github.io/zh/posts/python/</link>
+    <description>Recent content in 学习笔记 on 幽梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
+    <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="https://ymmeng.github.io/zh/posts/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/blenderapi/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/blenderapi/</guid>
+        <description>blenderAPI data数据 可以访问blender中的所有数据 可以进行材质属性、物体大小等进行修改 context 只能访问当前激活的物体 ops 操作指令，比如按钮什么的，或者创建物体 operators types 所有实现的‘class类模块’定义 props blende</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/python%E5%87%BD%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/python%E5%87%BD%E6%95%B0/</guid>
+        <description>Python函数 1、 函数的参数 2.11 形参的第三种:动态参数 动态接收位置参数：*args 我们按照上面的例子继续写，如果我请你吃的内容很多，但是我又不想用多个参数接收，那么我就可以使用动态参数*args 1 2 3</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+        <description>一.什么是数据类型？ 什么是数据类型？ 我们人类可以很容易的分清数字与字符的区别，但是计算机并不能呀，计算机虽然很强大，但从某种角度上看又很傻，除非你明确的告诉它，1是数字，“汉”是文字，否则它是分不清1</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BAwhile%E5%BE%AA%E7%8E%AF%E7%BC%96%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BAwhile%E5%BE%AA%E7%8E%AF%E7%BC%96%E7%A0%81/</guid>
+        <description>一. 格式化输出 1 2 3 4 5 6 7 8 info = &amp;#39;&amp;#39;&amp;#39; ------------ info of %s----------- #这里的每个%s就是一个占位符，本行的代表 后面拓号里的 name Name : %s#代表 name Age : %s#代表 age job : %s#代表 job Hobbie: %s#代表 hobbie ------------- end ----------------- &amp;#39;&amp;#39;&amp;#39; %(name,name,age,job,hobbie) # 这行的 % 号就是 把前面的字符</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E6%A8%A1%E5%9D%97/</guid>
+        <description>模块 what is 模块：本质就是.py文件，它是封装语句的最小单位。 自定义模块：实际上就是定义一个.py文件。其中可以包括：变量定义，可执行语句，for循环，函数定义等等，他们统称模块的成员。 模块运行的方式： 脚</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E8%A3%85%E9%A5%B0%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E8%A3%85%E9%A5%B0%E5%99%A8/</guid>
+        <description>标准版的装饰器: 装饰器的本质就是闭包 1 2 3 4 5 6 7 def wrapper(f): def inner(*args,**kwargs): &amp;#39;&amp;#39;&amp;#39;添加额外的功能：执行被装饰函数之前的操作&amp;#39;&amp;#39;&amp;#39; ret = f(*args,**kwargs) &amp;#39;&amp;#39;&amp;#39;添加额</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E8%BF%AD%E4%BB%A3%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E8%BF%AD%E4%BB%A3%E5%99%A8/</guid>
+        <description>迭代器 1) 可迭代对象定义 在python中，但凡内部含有__iter__方法的对象，都是可迭代对象。 2) 查看对象内部方法 该对象内部含有什么方法除了看源码还有什么其他的解决方式么？当然有了， 可以通过dir()</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
+        <description>面向对象 面向对象基础 ​ 在用面向对象的时候一般类名用大写字母开头，函数名用小写字母开头 类 1 2 3 def FunctionName(args): &amp;#39;函数文档字符串&amp;#39; 函数体 实例化 1 2 3 4 5 6 7 8 9 10 class Person: #定义一个人类 role = &amp;#39;person&amp;#39; #人的角色属性</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

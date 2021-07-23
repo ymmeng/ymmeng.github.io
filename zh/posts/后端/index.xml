@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>学习笔记 on 幽梦</title>
+    <link>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/</link>
+    <description>Recent content in 学习笔记 on 幽梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
+    <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>go-gin框架使用</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/go-gin%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Sat, 11 Jan 2020 14:09:21 +0900</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/go-gin%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8/</guid>
+        <description>前提准备 1.1配置go代理并开启go mod模式： 1 2 go env -w GO111MODULE=&amp;#34;on&amp;#34; go env -w GOPROXY=&amp;#34;https://goproxy.cn,direct&amp;#34; 1.2使用go mod初始化项目并下载依赖包 1 2 go mod init mypoject go mod tidy 1.3下载gin框架 1 go get -u github.com/gin-gonic/gin 快速入门 运行下列代码并访问http://l</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>PHP常用关键字</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/php%E5%B8%B8%E7%94%A8%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Sat, 11 Jan 2020 14:09:21 +0900</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/php%E5%B8%B8%E7%94%A8%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+        <description>1.1 常用类型指示符 类型 描述 %b 整数，显示为二进制 %c 整数，显示为ASCII字符 %d 整数，显示为有符号十进制数 %f 浮点数，显示为浮点数 %o 整数，显示为八进制数 %s 字符串，显示为字符串 %u 整数，显示为无符号十进制数 %x 整数</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>解决Golang1.14 etcd/clientv3报错：etcd undefined: resolver.BuildOption</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/%E8%A7%A3%E5%86%B3golang1.14-etcdclientv3%E6%8A%A5%E9%94%99etcd-undefined-resolver.buildoption/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Sat, 11 Jan 2020 14:09:21 +0900</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/%E8%A7%A3%E5%86%B3golang1.14-etcdclientv3%E6%8A%A5%E9%94%99etcd-undefined-resolver.buildoption/</guid>
+        <description>Golang etcd/clientv3报错： etcd undefined: resolver.BuildOption 故障描述 golang版本 1 2 go version go version go1.14 windows/amd64 包管理器go.mod 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 module go_micro go 1.14 require ( github.com/coreos/etcd v3.3.25+incompatible // indirect github.com/dustin/go-humanize v1.0.0 // indirect github.com/golang/protobuf v1.4.3 github.com/google/go-cmp v0.5.0 // indirect github.com/gorilla/websocket v1.4.2 // indirect github.com/micro/go-micro/v2 v2.9.1 golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect golang.org/x/sys v0.0.0-20201223074533-0d417f636930</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

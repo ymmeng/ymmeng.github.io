@@ -1645,7 +1645,7 @@
           
             
               
-                <a href="https://ymmeng.github.io/en/" data-lang="en" class="dropdown-item is-active">English</a>
+                <a href="https://ymmeng.github.io/zh/" data-lang="zh" class="dropdown-item">简体中文</a>
               
             
           
@@ -1661,7 +1661,7 @@
           
             
               
-                <a href="https://ymmeng.github.io/zh/" data-lang="zh" class="dropdown-item">简体中文</a>
+                <a href="https://ymmeng.github.io/en/" data-lang="en" class="dropdown-item is-active">English</a>
               
             
           
@@ -1781,53 +1781,118 @@
             
 <header class="header hide-mobile">
     
-        <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.13.1/dist/core.js" integrity="sha256-dsvC/UolMujQ/UQ7lVeJ7Q/FV3BSzWO0rc8iz1rqHQo=" crossorigin="anonymous"></script>
+        
+<script defer src="/js/swipehome.min.ceda0bd6b06208f9fda3d65566e78f53013e3182732f3325b75eb80dad8968d4.js"></script>
 
 
-  
-    
-      <div class="site-header basicflex-column site-header__align-center" data-ani="true" style="width: 100%; height: 190px; padding: px 50px; font-size: 44px; color:yellow;">
-        <div id="typewriter"></div>
-      </div>
-
-      <script>
+  <div id="headerSwipe" class="swipe">
+    <div class="swipe-home">
+      
+      
+      
+      
+      
+      
+      
+      
         
         
-
-        var methods = JSON.parse("[{\"typeString\":\"Hello world!\"},{\"pauseFor\":2500},{\"deleteAll\":true},{\"typeString\":\"Strings can be removed\"},{\"pauseFor\":2500},{\"deleteChars\":7},{\"typeString\":\"\\u003cstrong\\u003ealtered!\\u003c/strong\\u003e\"},{\"pauseFor\":2500}]");
-        var options = JSON.parse("{\"autoStart\":false,\"loop\":true}");
-        var typeElem = document.getElementById("typewriter");
-        var typewriter = new Typewriter(typeElem, options);
+          <div class="site-header__align-left" data-ani="true" style="background-image: url('/images/header/background.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 235px;">
+            
+                        
+              
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
+                header title1
+              </div>
+                    
+            
+            
+              <div style="height: 20px"></div>
+            
+            
+               
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
+                header subtitle1
+              </div>
+              
+            
+          </div>
         
-        for (var i = 0; i < methods.length; i++) {
-          var key = Object.keys(methods[i])[0];
-
-          if (key === "typeString") {
-            typewriter.typeString(methods[i][key]);
-          } else if (key === "pauseFor") {
-            typewriter.pauseFor(methods[i][key]);
-          } else if (key === "deleteAll") {
-            typewriter.deleteAll();
-          } else if (key === "deleteChars") {
-            typewriter.deleteChars(methods[i][key]);
-          } else if (key === "pause") {
-            typewriter.pause();
-          } else if (key === "stop") {
-            typewriter.stop();
-          }
-        }
-
-        typewriter.start();
-      </script>
-    
-  
-    
-  
-    
-  
-    
-  
-
+          <div class="site-header__align-center" data-ani="true" style="background-image: url('/images/header/background.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 235px;">
+            
+                        
+              
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
+                header title2
+              </div>
+                    
+            
+            
+              <div style="height: 20px"></div>
+            
+            
+               
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
+                header subtitle2
+              </div>
+              
+            
+          </div>
+        
+          <div class="site-header__align-right" data-ani="true" style="background-image: url('/images/header/background.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 235px;">
+            
+                        
+              
+              <div class="site-header__title" style="font-size: 44px; padding: 0px 50px;">
+                header title3
+              </div>
+                    
+            
+            
+              <div style="height: 20px"></div>
+            
+            
+               
+              <div class="site-header__subtitle" style="font-size: 16px; padding: 0px 50px;">
+                header subtitle3
+              </div>
+              
+            
+          </div>
+        
+      
+      
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      var options = null;
+      var header = JSON.parse("[{\"align\":\"center\",\"fontColor\":\"yellow\",\"fontSize\":44,\"height\":190,\"methods\":[{\"typeString\":\"Hello world!\"},{\"pauseFor\":2500},{\"deleteAll\":true},{\"typeString\":\"Strings can be removed\"},{\"pauseFor\":2500},{\"deleteChars\":7},{\"typeString\":\"\\u003cstrong\\u003ealtered!\\u003c/strong\\u003e\"},{\"pauseFor\":2500}],\"options\":{\"autoStart\":false,\"loop\":true},\"paddingX\":50,\"type\":\"typewriter\"},{\"align\":\"center\",\"height\":200,\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":16,\"subtitle\":[\"The world’s fastest framework for building websites\"],\"subtitleColor\":null,\"subtitleCursive\":true,\"subtitleFontSize\":18,\"title\":[\"HUGO\"],\"titleColor\":null,\"titleFontSize\":44,\"titleShadow\":true,\"type\":\"text\"},{\"align\":\"center\",\"height\":235,\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[null],\"subtitleColor\":null,\"subtitleCursive\":false,\"subtitleFontSize\":16,\"title\":[null],\"titleColor\":null,\"titleFontSize\":44,\"titleShadow\":false,\"type\":\"img\"},{\"height\":235,\"options\":{\"auto\":5000,\"autoRestart\":true,\"continuous\":true,\"disableScroll\":true,\"draggable\":true,\"startSlide\":0,\"stopPropagation\":true},\"slide\":[{\"align\":\"left\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"header subtitle1\"],\"subtitleFontSize\":16,\"title\":[\"header title1\"],\"titleFontSize\":44},{\"align\":\"center\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"header subtitle2\"],\"subtitleFontSize\":16,\"title\":[\"header title2\"],\"titleFontSize\":44},{\"align\":\"right\",\"imagePosition\":\"center\",\"imageRepeat\":\"no-repeat\",\"imageSize\":\"cover\",\"imageSrc\":\"images/header/background.jpg\",\"paddingX\":50,\"paddingY\":0,\"spaceBetweenTitleSubtitle\":20,\"subtitle\":[\"header subtitle3\"],\"subtitleFontSize\":16,\"title\":[\"header title3\"],\"titleFontSize\":44}],\"type\":\"slide\"}]");
+      var slide = header.filter(function(h) {
+        return h.type === 'slide';
+      });
+      
+      if (slide.length > 0) {
+        options = slide[0].options;
+      }
+      
+      var headerSwipeElem = document.getElementById('headerSwipe');
+      var headerSwipe = new Swipe(headerSwipeElem,
+        options ? 
+        options : {
+          startSlide: 0,
+          auto: 7000,
+          draggable: true,
+          autoRestart: true,
+          continuous: true,
+          disableScroll: true,
+          stopPropagation: true,
+          callback: function (index, element) { },
+          transitionEnd: function (index, element) { }
+        });
+    });
+  </script>
 
     
 </header>
@@ -1983,7 +2048,7 @@
                 
   <article class="summary-card" data-ani="true">
   <header>
-    <h5 class="title h5"><a href='https://ymmeng.github.io/en/gallery/photo/'>Photo</a> </h5>
+    <h5 class="title h5"><a href='https://ymmeng.github.io/en/gallery/photo/'>图片</a> </h5>
     <h6 class="subtitle caption">
       <time title="Written At" dir="ltr">📅Oct 31, 2019 </time> 
        
@@ -2084,7 +2149,7 @@
     
     
       
-        <img data-src="https://s3.ax1x.com/2020/12/06/DXIfv8.jpg" alt="幽梦" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload bio__photo" data-ani="true"/>
+        <img data-src="/images/whoami/avatar.jpg" alt="幽梦" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload bio__photo" data-ani="true"/>
            
     
   </div>
@@ -2296,7 +2361,7 @@
                     </li>
                 
                     <li>
-                        <a href="/en/gallery/photo/" class="sidebar-recent__a p2">Photo</a>
+                        <a href="/en/gallery/photo/" class="sidebar-recent__a p2">图片</a>
                     </li>
                 
             </ul>
@@ -2706,7 +2771,7 @@
         
           
             
-              <a href="https://ymmeng.github.io/en/" data-lang="en" class="dropdown-item is-active">English</a>
+              <a href="https://ymmeng.github.io/zh/" data-lang="zh" class="dropdown-item">简体中文</a>
             
           
         
@@ -2722,7 +2787,7 @@
         
           
             
-              <a href="https://ymmeng.github.io/zh/" data-lang="zh" class="dropdown-item">简体中文</a>
+              <a href="https://ymmeng.github.io/en/" data-lang="en" class="dropdown-item is-active">English</a>
             
           
         
@@ -2874,7 +2939,7 @@
                     
 
                     
-                        ©2020, All Rights Reserved<a rel="license" href=""></a>
+                        ©2021, All Rights Reserved<a rel="license" href=""></a>
                     
                 
             </p>

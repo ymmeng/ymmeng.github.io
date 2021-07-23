@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>学习笔记 on 幽梦</title>
+    <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/</link>
+    <description>Recent content in 学习笔记 on 幽梦</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
+    <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 11 Dec 2020 21:11:53 +0800</lastBuildDate>
+    
+        <atom:link href="https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>git submodule 使用</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/git-submodule%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/git-submodule%E4%BD%BF%E7%94%A8/</guid>
+        <description>演示 1 2 3 4 5 6 7 8 9 添加父亲，也就是初始化git仓库 git init 添加儿子们，添加子模块 git submodule add https:xxx.com/xxx.git 找回儿子们，因为在clone主仓库的时候，git默认是不会把子模块给clone下来，所以需要使用以下命令 git submodule update --init</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>submodule</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>传统布局和 flex 布局对比</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/html%E4%B8%ADflex%E5%B8%83%E5%B1%80%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/html%E4%B8%ADflex%E5%B8%83%E5%B1%80%E4%BD%BF%E7%94%A8/</guid>
+        <description>1.0 传统布局和 flex 布局对比 1.1 传统布局 兼容性好 布局繁琐 局限性，不能再移动端很好的布局 1.2 flex 布局 操作方便，布局极其简单，移动端使用比较广泛 pc 端浏览器支持情况比较差 IE11 或更低版本不支持 flex 或仅支持部分 1.3 建议 如果是 pc 端</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>flex</category>
+            
+          
+        
+        
+          
+            
+              <category>HTML</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/css/</guid>
+        <description>css常用样式 上下左右置中对齐 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 #id { position: absolute; top:50%; left:50%; transform: translateX(-50%) translateY(-50%); } body { min-height: 100vh; display: flex; justify-content: center; align-items: center; } text-align: justify; /*文字对其*/ 闭合浮动 1 2 3 4 5 6 7 8 9 10 11 .class{ overflow:hidden; } .class{ display:flow-root; } .class::after{ content:&amp;#39;&amp;#39;; clear:both; display:block; }</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+        <description>JavaScript学习笔记 1 2 3 4 5 6 7 8 alert(&amp;#34;出来一个弹框&amp;#34;) document.write(&amp;#34;向body标签内写入东西&amp;#34;) console.log(&amp;#34;</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/js%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BD%AC%E6%8D%A2%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/js%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BD%AC%E6%8D%A2%E6%96%B9%E6%B3%95/</guid>
+        <description>JS日期格式化转换方法 1. 将日期转换为指定的格式：比如转换成 年月日时分秒 这种格式：yyyy-MM-dd hh:mm:ss 或者 yyyy-MM-dd。 可以为Date原型添加如下的方法： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/laravel/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/laravel/</guid>
+        <description>1 2 3 4 php artisan make:controller TaskController #创建控制器 php artisan make:controller BlogController --resource # php artisan make:controller BlogController --api # php artisan route:list #查看项目注册的路由列表</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/vue%E6%A0%87%E7%AD%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/vue%E6%A0%87%E7%AD%BE/</guid>
+        <description>VUE常用标签 1 2 3 4 5 6 7 8 9 10 11 12 13 v-text #显示文本 v-html #渲染html v-on 点击事件 常用: @click @keyup.enter v-show #根据表达式的真假切换元素的显示，display v-if #根据表达式的真假切换元素的显示，dom元素 v-bind #设置元素的属</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</guid>
+        <description>移动端基本概念 css像素 物理像素 本位像素 pc端窗口 移动端窗口 1 2 3 var layout = document.documentElement.clientWidth;//layout的宽度，没有兼容性问题 var visual = windo</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

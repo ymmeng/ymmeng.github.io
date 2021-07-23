@@ -1323,12 +1323,14 @@
 
 
     
-<meta name="description" content="The Zzo theme for Hugo example site." />
+<meta name="description" content="git submodule 使用" />
 
 
-<meta name="created" content="2020-12-11T12:40:51&#43;0800">
-<meta name="modified" content="2020-12-11T12:40:51&#43;0800">
-<meta property="article:published_time" content="2020-12-11T12:40:51&#43;0800">
+<meta name="keywords" content="git,submodule">
+
+<meta name="created" content="2020-12-11T21:11:53&#43;0800">
+<meta name="modified" content="2020-12-11T21:11:53&#43;0800">
+<meta property="article:published_time" content="2020-12-11T21:11:53&#43;0800">
 
 <meta name="author" content="幽梦">
 
@@ -1337,7 +1339,7 @@
 <meta property="og:title" content="git submodule 使用">
 <meta property="og:url" content="https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="The Zzo theme for Hugo example site.">
+<meta property="og:description" content="git submodule 使用">
 
 <meta name="generator" content="Hugo 0.78.2" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1375,10 +1377,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "headline": "git submodule 使用",
-    "datePublished": "2020-12-11T12:40:51+08:00",
-    "dateModified": "2020-12-11T12:40:51+08:00",
+    "datePublished": "2020-12-11T21:11:53+08:00",
+    "dateModified": "2020-12-11T21:11:53+08:00",
     "url" : "https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/",
-    "description": "git submodule 使用 git init 添加父亲 git submodule add https:xxx.com/xxx.git 添加儿子们 git submodule update \u0026ndash;init \u0026ndash; recursive 找回儿子们",
+    "description": "git submodule 使用",
+    "keywords": ["git","submodule"],
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://ymmeng.github.io"
@@ -1678,14 +1681,14 @@
         
         
           
-        
-          
           
             
               
                 <a href="https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/" data-lang="zh" class="dropdown-item is-active">简体中文</a>
               
             
+          
+        
           
         
       
@@ -1847,7 +1850,7 @@
   
   <li >
     
-      <a href="https://ymmeng.github.io/zh/posts/" class="capitalize">文章</a>
+      <a href="https://ymmeng.github.io/zh/posts/" class="capitalize">学习笔记</a>
     
   </li>
   
@@ -1883,20 +1886,60 @@
       
 <ul class="single__tags caption">
   
+  🏷️
+  
+
+  <li><a href="https://ymmeng.github.io/zh/tags/git/" class="single__tag" title="git">#git</a></li>
+
+  <li><a href="https://ymmeng.github.io/zh/tags/submodule/" class="single__tag" title="submodule">#submodule</a></li>
 
 </ul>
 
     </div>
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <h2 id="git-submodule-使用">git submodule 使用</h2>
-<p>git init</p>
-<p>添加父亲</p>
-<p>git submodule add https:xxx.com/xxx.git</p>
-<p>添加儿子们</p>
-<p>git submodule update &ndash;init &ndash; recursive</p>
-<p>找回儿子们</p>
+<div class="expand">
+  <button type="button" class="expand__button" aria-label="Expand Button">
+    <span class="expand-icon expand-icon__right">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z"/></svg>
+    </span>
+    目录
+  </button>
+  <div class="expand__content expand__content--toc">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#演示">演示</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
 
+      <h2 id="演示">演示</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-sh" data-lang="sh">添加父亲，也就是初始化git仓库
+git init
+
+添加儿子们，添加子模块
+git submodule add https:xxx.com/xxx.git
+
+找回儿子们，因为在clone主仓库的时候，git默认是不会把子模块给clone下来，所以需要使用以下命令
+git submodule update --init --recursive
+
+</code></pre></td></tr></table>
+</div>
+</div>
     </article>
     
     
@@ -2226,11 +2269,11 @@
 <nav class="pagination-single">
   
     
-      <a href="https://ymmeng.github.io/zh/posts/hello/" class="pagination-single__left">
+      <a href="https://ymmeng.github.io/zh/posts/html%E4%B8%ADflex%E5%B8%83%E5%B1%80%E4%BD%BF%E7%94%A8/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Hello</div>      
+        <div class="pagination-single__left-title">传统布局和 flex 布局对比</div>      
       </a>
     
     <div class="grow"></div>
@@ -3167,14 +3210,14 @@ document.addEventListener('DOMContentLoaded', function () {
       
       
         
-      
-        
         
           
             
               <a href="https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/" data-lang="zh" class="dropdown-item is-active">简体中文</a>
             
           
+        
+      
         
       
     
@@ -3358,7 +3401,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="toc toc__outer " data-dir="ltr" data-folding="true" data-ani="true">
           <nav id="TableOfContents">
   <ul>
-    <li><a href="#git-submodule-使用">git submodule 使用</a></li>
+    <li><a href="#演示">演示</a></li>
   </ul>
 </nav>
         </div>

@@ -14,7 +14,7 @@
     <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
     <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 11 Dec 2020 12:40:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2020 21:11:53 +0800</lastBuildDate>
     
         <atom:link href="https://ymmeng.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,12 +35,204 @@
       
       <item>
         <title>git submodule 使用</title>
-        <link>https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/</link>
-        <pubDate>Fri, 11 Dec 2020 12:40:51 +0800</pubDate>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/git-submodule%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
         <author>https://ymmengs@outlook.com (幽梦)</author>
-        <atom:modified>Fri, 11 Dec 2020 12:40:51 +0800</atom:modified>
-        <guid>https://ymmeng.github.io/zh/posts/git-submodule%E4%BD%BF%E7%94%A8/</guid>
-        <description>git submodule 使用 git init 添加父亲 git submodule add https:xxx.com/xxx.git 添加儿子们 git submodule update &amp;ndash;init &amp;ndash; recursive 找回儿子们</description>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/git-submodule%E4%BD%BF%E7%94%A8/</guid>
+        <description>演示 1 2 3 4 5 6 7 8 9 添加父亲，也就是初始化git仓库 git init 添加儿子们，添加子模块 git submodule add https:xxx.com/xxx.git 找回儿子们，因为在clone主仓库的时候，git默认是不会把子模块给clone下来，所以需要使用以下命令 git submodule update --init</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>submodule</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>git submodule 使用</title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/git-submodule%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/git-submodule%E4%BD%BF%E7%94%A8/</guid>
+        <description>演示 1 2 3 4 5 6 7 8 9 添加父亲，也就是初始化git仓库 git init 添加儿子们，添加子模块 git submodule add https:xxx.com/xxx.git 找回儿子们，因为在clone主仓库的时候，git默认是不会把子模块给clone下来，所以需要使用以下命令 git submodule update --init</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>submodule</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>传统布局和 flex 布局对比</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/html%E4%B8%ADflex%E5%B8%83%E5%B1%80%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/html%E4%B8%ADflex%E5%B8%83%E5%B1%80%E4%BD%BF%E7%94%A8/</guid>
+        <description>1.0 传统布局和 flex 布局对比 1.1 传统布局 兼容性好 布局繁琐 局限性，不能再移动端很好的布局 1.2 flex 布局 操作方便，布局极其简单，移动端使用比较广泛 pc 端浏览器支持情况比较差 IE11 或更低版本不支持 flex 或仅支持部分 1.3 建议 如果是 pc 端</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>flex</category>
+            
+          
+        
+        
+          
+            
+              <category>HTML</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>提示框</title>
+        <link>https://ymmeng.github.io/zh/posts/%E6%8F%90%E7%A4%BA%E6%A1%86/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E6%8F%90%E7%A4%BA%E6%A1%86/</guid>
+        <description>提示框 使用方法 1 看起来的样子 warning, success, info, danger this is a text 框 Markdownify框 1 简单的盒子 1 折叠 1 注意 1 标签 1</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>用户模块</title>
+        <link>https://ymmeng.github.io/zh/posts/%E7%94%A8%E6%88%B7%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Fri, 11 Dec 2020 21:11:53 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Fri, 11 Dec 2020 21:11:53 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E7%94%A8%E6%88%B7%E6%A8%A1%E5%9D%97/</guid>
+        <description>用户 接口 User 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 string userID通过用户的uuid查询 users 数据表获取用户的详细信息。 umeta查询后需要做链接到 umetas数据表。通过userid 来查询 umetas 的指定用户字段的所有</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+            
+              <category>submodule</category>
+            
+          
+        
+        
+          
+            
+              <category>git</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>go-gin框架使用</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/go-gin%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Sat, 11 Jan 2020 14:09:21 +0900</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/go-gin%E6%A1%86%E6%9E%B6%E4%BD%BF%E7%94%A8/</guid>
+        <description>前提准备 1.1配置go代理并开启go mod模式： 1 2 go env -w GO111MODULE=&amp;#34;on&amp;#34; go env -w GOPROXY=&amp;#34;https://goproxy.cn,direct&amp;#34; 1.2使用go mod初始化项目并下载依赖包 1 2 go mod init mypoject go mod tidy 1.3下载gin框架 1 go get -u github.com/gin-gonic/gin 快速入门 运行下列代码并访问http://l</description>
         
         <dc:creator>幽梦</dc:creator>
         
@@ -52,13 +244,31 @@
       </item>
       
       <item>
-        <title>Hello</title>
-        <link>https://ymmeng.github.io/zh/posts/hello/</link>
-        <pubDate>Fri, 11 Dec 2020 12:40:51 +0800</pubDate>
+        <title>PHP常用关键字</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/php%E5%B8%B8%E7%94%A8%E5%85%B3%E9%94%AE%E5%AD%97/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         <author>https://ymmengs@outlook.com (幽梦)</author>
-        <atom:modified>Fri, 11 Dec 2020 12:40:51 +0800</atom:modified>
-        <guid>https://ymmeng.github.io/zh/posts/hello/</guid>
-        <description></description>
+        <atom:modified>Sat, 11 Jan 2020 14:09:21 +0900</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/php%E5%B8%B8%E7%94%A8%E5%85%B3%E9%94%AE%E5%AD%97/</guid>
+        <description>1.1 常用类型指示符 类型 描述 %b 整数，显示为二进制 %c 整数，显示为ASCII字符 %d 整数，显示为有符号十进制数 %f 浮点数，显示为浮点数 %o 整数，显示为八进制数 %s 字符串，显示为字符串 %u 整数，显示为无符号十进制数 %x 整数</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>解决Golang1.14 etcd/clientv3报错：etcd undefined: resolver.BuildOption</title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/%E8%A7%A3%E5%86%B3golang1.14-etcdclientv3%E6%8A%A5%E9%94%99etcd-undefined-resolver.buildoption/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Sat, 11 Jan 2020 14:09:21 +0900</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E5%90%8E%E7%AB%AF/%E8%A7%A3%E5%86%B3golang1.14-etcdclientv3%E6%8A%A5%E9%94%99etcd-undefined-resolver.buildoption/</guid>
+        <description>Golang etcd/clientv3报错： etcd undefined: resolver.BuildOption 故障描述 golang版本 1 2 go version go version go1.14 windows/amd64 包管理器go.mod 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 module go_micro go 1.14 require ( github.com/coreos/etcd v3.3.25+incompatible // indirect github.com/dustin/go-humanize v1.0.0 // indirect github.com/golang/protobuf v1.4.3 github.com/google/go-cmp v0.5.0 // indirect github.com/gorilla/websocket v1.4.2 // indirect github.com/micro/go-micro/v2 v2.9.1 golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect golang.org/x/sys v0.0.0-20201223074533-0d417f636930</description>
         
         <dc:creator>幽梦</dc:creator>
         
@@ -233,6 +443,420 @@
         <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
         <guid>https://ymmeng.github.io/zh/publication/misc/misc_any_folder_name_1/</guid>
         <description></description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/blenderapi/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/blenderapi/</guid>
+        <description>blenderAPI data数据 可以访问blender中的所有数据 可以进行材质属性、物体大小等进行修改 context 只能访问当前激活的物体 ops 操作指令，比如按钮什么的，或者创建物体 operators types 所有实现的‘class类模块’定义 props blende</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/python%E5%87%BD%E6%95%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/python%E5%87%BD%E6%95%B0/</guid>
+        <description>Python函数 1、 函数的参数 2.11 形参的第三种:动态参数 动态接收位置参数：*args 我们按照上面的例子继续写，如果我请你吃的内容很多，但是我又不想用多个参数接收，那么我就可以使用动态参数*args 1 2 3</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+        <description>一.什么是数据类型？ 什么是数据类型？ 我们人类可以很容易的分清数字与字符的区别，但是计算机并不能呀，计算机虽然很强大，但从某种角度上看又很傻，除非你明确的告诉它，1是数字，“汉”是文字，否则它是分不清1</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BAwhile%E5%BE%AA%E7%8E%AF%E7%BC%96%E7%A0%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/python%E5%9F%BA%E7%A1%80-%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BAwhile%E5%BE%AA%E7%8E%AF%E7%BC%96%E7%A0%81/</guid>
+        <description>一. 格式化输出 1 2 3 4 5 6 7 8 info = &amp;#39;&amp;#39;&amp;#39; ------------ info of %s----------- #这里的每个%s就是一个占位符，本行的代表 后面拓号里的 name Name : %s#代表 name Age : %s#代表 age job : %s#代表 job Hobbie: %s#代表 hobbie ------------- end ----------------- &amp;#39;&amp;#39;&amp;#39; %(name,name,age,job,hobbie) # 这行的 % 号就是 把前面的字符</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E6%A8%A1%E5%9D%97/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E6%A8%A1%E5%9D%97/</guid>
+        <description>模块 what is 模块：本质就是.py文件，它是封装语句的最小单位。 自定义模块：实际上就是定义一个.py文件。其中可以包括：变量定义，可执行语句，for循环，函数定义等等，他们统称模块的成员。 模块运行的方式： 脚</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E8%A3%85%E9%A5%B0%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E8%A3%85%E9%A5%B0%E5%99%A8/</guid>
+        <description>标准版的装饰器: 装饰器的本质就是闭包 1 2 3 4 5 6 7 def wrapper(f): def inner(*args,**kwargs): &amp;#39;&amp;#39;&amp;#39;添加额外的功能：执行被装饰函数之前的操作&amp;#39;&amp;#39;&amp;#39; ret = f(*args,**kwargs) &amp;#39;&amp;#39;&amp;#39;添加额</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E8%BF%AD%E4%BB%A3%E5%99%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E8%BF%AD%E4%BB%A3%E5%99%A8/</guid>
+        <description>迭代器 1) 可迭代对象定义 在python中，但凡内部含有__iter__方法的对象，都是可迭代对象。 2) 查看对象内部方法 该对象内部含有什么方法除了看源码还有什么其他的解决方式么？当然有了， 可以通过dir()</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/python/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/python/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
+        <description>面向对象 面向对象基础 ​ 在用面向对象的时候一般类名用大写字母开头，函数名用小写字母开头 类 1 2 3 def FunctionName(args): &amp;#39;函数文档字符串&amp;#39; 函数体 实例化 1 2 3 4 5 6 7 8 9 10 class Person: #定义一个人类 role = &amp;#39;person&amp;#39; #人的角色属性</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/css/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/css/</guid>
+        <description>css常用样式 上下左右置中对齐 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 #id { position: absolute; top:50%; left:50%; transform: translateX(-50%) translateY(-50%); } body { min-height: 100vh; display: flex; justify-content: center; align-items: center; } text-align: justify; /*文字对其*/ 闭合浮动 1 2 3 4 5 6 7 8 9 10 11 .class{ overflow:hidden; } .class{ display:flow-root; } .class::after{ content:&amp;#39;&amp;#39;; clear:both; display:block; }</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+        <description>JavaScript学习笔记 1 2 3 4 5 6 7 8 alert(&amp;#34;出来一个弹框&amp;#34;) document.write(&amp;#34;向body标签内写入东西&amp;#34;) console.log(&amp;#34;</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/js%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BD%AC%E6%8D%A2%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/js%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BD%AC%E6%8D%A2%E6%96%B9%E6%B3%95/</guid>
+        <description>JS日期格式化转换方法 1. 将日期转换为指定的格式：比如转换成 年月日时分秒 这种格式：yyyy-MM-dd hh:mm:ss 或者 yyyy-MM-dd。 可以为Date原型添加如下的方法： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/laravel/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/laravel/</guid>
+        <description>1 2 3 4 php artisan make:controller TaskController #创建控制器 php artisan make:controller BlogController --resource # php artisan make:controller BlogController --api # php artisan route:list #查看项目注册的路由列表</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/vue%E6%A0%87%E7%AD%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/vue%E6%A0%87%E7%AD%BE/</guid>
+        <description>VUE常用标签 1 2 3 4 5 6 7 8 9 10 11 12 13 v-text #显示文本 v-html #渲染html v-on 点击事件 常用: @click @keyup.enter v-show #根据表达式的真假切换元素的显示，display v-if #根据表达式的真假切换元素的显示，dom元素 v-bind #设置元素的属</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E5%89%8D%E7%AB%AF/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</guid>
+        <description>移动端基本概念 css像素 物理像素 本位像素 pc端窗口 移动端窗口 1 2 3 var layout = document.documentElement.clientWidth;//layout的宽度，没有兼容性问题 var visual = windo</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/apache/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/apache/</guid>
+        <description>1 2 3 DocumentRoot &amp;#34;/var/www/html&amp;#34; #指定虚拟目录 ServerName www.baidu.com #虚拟目录绑定的域名 DirectoryIndex aa.php #默认首页文件</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/docker-compose%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/docker-compose%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4/</guid>
+        <description>Docker Compose基础指令 快速入门 准备工作 1 2 yum install python-pip yum -y install epel-release 来个练习吧 1.1为项目创建目录 1 2 mkdir composetest cd composetest 1.2在项目目录中创建一个app.py的文件： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 import time import redis from</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/docker%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/docker%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</guid>
+        <description>Docker安装以及常用操作 1、安装Docker 1.1安装gcc和gcc-c++ 1 yum -y install gcc &amp;amp;&amp;amp;yum -y install gcc-c++ 1.2安装 utils 1 yum install -y yum-utils 1.3安装Docker 1 2 3 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo yum makecache fast yum install docker-ce docker-ce-cli containerd.io 1.4启动Docker 1 2 service docker</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/mongodb%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/mongodb%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</guid>
+        <description>MongoDB基础操作 查看数据库 语法 show databases 效果 1 2 3 4 5 6 &amp;gt; show databases admin 0.000GB canaan 0.000GB canaan_test 0.002GB config 0.000GB local 0.000GB 选择/创建数据库 语法 use #有数据则选择，没有则创建 删除数据库 语法 db.dropDatabase() 查看集合 语法 show clooections 效果 1 2 3 &amp;gt; show collections associated_records records 创建集合 语法 db.</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/mysql8.0%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/mysql8.0%E7%AC%94%E8%AE%B0/</guid>
+        <description>Mysql8.0笔记 零、用户管理： 1 2 3 4 5 6 1、新建用户：CREATE USER name IDENTIFIED BY &amp;#39;ssapdrow&amp;#39;; 2、更改密码：SET PASSWORD FOR name=PASSWORD(&amp;#39;fdddfd&amp;#39;); 3、权限管理: SHOW GRANTS FOR name; //查看name用户权限 GRANT SELECT ON db_name.* TO name; //给name用户db_name数</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+        <description>Redis学习笔记 安装 在线安装 直接输入命令 1 sudo apt-get install redis-server 安装完成后，Redis服务器会自动启动。使用以下命令可以看到服务器系统进程默认端口6379 1 ps -aux|grep redis 下载安装包： 下载：打开redis官方网站，推荐下载</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/ubuntu20.04%E9%98%B2%E7%81%AB%E5%A2%99/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/ubuntu20.04%E9%98%B2%E7%81%AB%E5%A2%99/</guid>
+        <description>Ubuntu20.04防火墙 1.安装 Ubuntu20.04一般都默认安装了UFW（Uncomplicated Firewall），它是一款轻量化的工具，主要用于对输入输出的流量进行监控。如果没有安装，请</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/ubuntu%E5%AE%89%E8%A3%85nginx%E5%92%8C%E6%AD%A3%E7%A1%AE%E5%8D%B8%E8%BD%BDnginx/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/ubuntu%E5%AE%89%E8%A3%85nginx%E5%92%8C%E6%AD%A3%E7%A1%AE%E5%8D%B8%E8%BD%BDnginx/</guid>
+        <description>Ubuntu安装Nginx和正确卸载Nginx Nginx相关 1.Ubuntu下安装Nginx比较简单 敲入下列命令即可： 1 2 sudo apt-get update sudo apt-get install nginx 2.Ubuntu下卸载，稍不注意就会入坑 1 2 3 4 sudo apt-get remove nginx nginx-common # 卸载</description>
+        
+        <dc:creator>幽梦</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/%E8%99%9A%E6%8B%9F%E6%9C%BAcentos8%E6%B2%A1%E6%9C%89%E7%BD%91%E7%BB%9Cping%E4%B8%8D%E9%80%9A%E4%B8%BB%E6%9C%BAwired%E5%9B%BE%E6%A0%87%E6%B6%88%E5%A4%B1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        
+        <guid>https://ymmeng.github.io/zh/posts/%E8%BF%90%E7%BB%B4/%E8%99%9A%E6%8B%9F%E6%9C%BAcentos8%E6%B2%A1%E6%9C%89%E7%BD%91%E7%BB%9Cping%E4%B8%8D%E9%80%9A%E4%B8%BB%E6%9C%BAwired%E5%9B%BE%E6%A0%87%E6%B6%88%E5%A4%B1/</guid>
+        <description>虚拟机Centos8,没有网络，ping不通主机，wired图标消失 我为了解决这个问题呕心沥血两天，任务停滞不前进度为0。解决之后，必须记下来！帮助有相同困难的人！百度上太多解决办法，但其实都没有用！</description>
         
         <dc:creator>幽梦</dc:creator>
         
