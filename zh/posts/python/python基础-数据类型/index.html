@@ -1339,7 +1339,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1939,8 +1939,8 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">num</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="k">print</span><span class="p">(</span><span class="n">num</span><span class="o">.</span><span class="n">bit_length</span><span class="p">())</span>  <span class="c1"># 当十进制用二进制表示时，最少使用的位数</span>
-<span class="c1"># 运行结果: 4</span>
+<span class="k">print</span><span class="p">(</span><span class="n">num</span><span class="o">.</span><span class="n">bit_length</span><span class="p">())</span>  <span class="c1"># 当十进制用二进制表示时，最少使用的位数</span>
+<span class="c1"># 运行结果: 4</span>
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="22布尔值bool">2.2布尔值bool。</h4>
@@ -1980,34 +1980,34 @@
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># int ---&gt; bool</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># int ---&gt; bool</span>
 <span class="n">i</span> <span class="o">=</span> <span class="mi">100</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>  <span class="c1"># True  # 非零即True</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>  <span class="c1"># True  # 非零即True</span>
 <span class="n">i1</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">i1</span><span class="p">))</span>  <span class="c1"># False 零即False</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">i1</span><span class="p">))</span>  <span class="c1"># False 零即False</span>
 
-<span class="c1"># bool ---&gt; int</span>
+<span class="c1"># bool ---&gt; int</span>
 <span class="n">t</span> <span class="o">=</span> <span class="bp">True</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>  <span class="c1"># 1  True --&gt; 1</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>  <span class="c1"># 1  True --&gt; 1</span>
 <span class="n">t</span> <span class="o">=</span> <span class="bp">False</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>  <span class="c1"># 0  False --&gt; 0</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>  <span class="c1"># 0  False --&gt; 0</span>
 
-<span class="c1"># int ---&gt; str</span>
+<span class="c1"># int ---&gt; str</span>
 <span class="n">i1</span> <span class="o">=</span> <span class="mi">100</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">i1</span><span class="p">))</span>  <span class="c1"># &#39;100&#39;</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">i1</span><span class="p">))</span>  <span class="c1"># &#39;100&#39;</span>
 
-<span class="c1"># str ---&gt; int  # 全部由数字组成的字符串才可以转化成数字</span>
+<span class="c1"># str ---&gt; int  # 全部由数字组成的字符串才可以转化成数字</span>
 <span class="n">s1</span> <span class="o">=</span> <span class="s1">&#39;90&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">s1</span><span class="p">))</span>  <span class="c1"># 90</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">s1</span><span class="p">))</span>  <span class="c1"># 90</span>
 
-<span class="c1"># str ---&gt; bool</span>
+<span class="c1"># str ---&gt; bool</span>
 <span class="n">s1</span> <span class="o">=</span> <span class="s1">&#39;太白&#39;</span>
 <span class="n">s2</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">s1</span><span class="p">))</span>  <span class="c1"># True 非空即True</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">s2</span><span class="p">))</span>  <span class="c1"># False</span>
-<span class="c1"># bool ---&gt; str</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">s1</span><span class="p">))</span>  <span class="c1"># True 非空即True</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">bool</span><span class="p">(</span><span class="n">s2</span><span class="p">))</span>  <span class="c1"># False</span>
+<span class="c1"># bool ---&gt; str</span>
 <span class="n">t1</span> <span class="o">=</span> <span class="bp">True</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="bp">True</span><span class="p">))</span>  <span class="c1"># &#39;True&#39;</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="bp">True</span><span class="p">))</span>  <span class="c1"># &#39;True&#39;</span>
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="23字符串str">2.3字符串str。</h4>
@@ -2035,11 +2035,11 @@ print(a[7])
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="s1">&#39;ABCDEFGHIJK&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>  <span class="c1"># print(a[:3]) 从开头开始取0可以默认不写</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>  <span class="c1"># print(a[:3]) 从开头开始取0可以默认不写</span>
 <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">])</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:])</span> <span class="c1">#默认到最后</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># -1 是列表中最后一个元素的索引，但是要满足顾头不顾腚的原则，所以取不到K元素</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:</span><span class="mi">5</span><span class="p">:</span><span class="mi">2</span><span class="p">])</span> <span class="c1">#加步长print(a[-1:-5:-2]) #反向加步长</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:])</span> <span class="c1">#默认到最后</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># -1 是列表中最后一个元素的索引，但是要满足顾头不顾腚的原则，所以取不到K元素</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">[:</span><span class="mi">5</span><span class="p">:</span><span class="mi">2</span><span class="p">])</span> <span class="c1">#加步长print(a[-1:-5:-2]) #反向加步长</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>2.3.2、字符串常用方法。</p>
@@ -2105,61 +2105,61 @@ print(a[7])
 </span><span class="lnt">57
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#数字符串中的元素出现的个数。</span>
-<span class="c1"># ret3 = a1.count(&#34;a&#34;,0,4) # 可切片</span>
-<span class="c1"># print(ret3)</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#数字符串中的元素出现的个数。</span>
+<span class="c1"># ret3 = a1.count(&#34;a&#34;,0,4) # 可切片</span>
+<span class="c1"># print(ret3)</span>
 
 <span class="n">a4</span> <span class="o">=</span> <span class="s2">&#34;dkfjdkfasf54&#34;</span>
-<span class="c1">#startswith 判断是否以...开头</span>
-<span class="c1">#endswith 判断是否以...结尾</span>
-<span class="c1"># ret4 = a4.endswith(&#39;jdk&#39;,3,6)  # 顾头不顾腚</span>
-<span class="c1"># print(ret4)  # 返回的是布尔值</span>
-<span class="c1"># ret5 = a4.startswith(&#34;kfj&#34;,1,4)</span>
-<span class="c1"># print(ret5)</span>
+<span class="c1">#startswith 判断是否以...开头</span>
+<span class="c1">#endswith 判断是否以...结尾</span>
+<span class="c1"># ret4 = a4.endswith(&#39;jdk&#39;,3,6)  # 顾头不顾腚</span>
+<span class="c1"># print(ret4)  # 返回的是布尔值</span>
+<span class="c1"># ret5 = a4.startswith(&#34;kfj&#34;,1,4)</span>
+<span class="c1"># print(ret5)</span>
 
-<span class="c1">#split 以什么分割，最终形成一个列表此列表不含有这个分割的元素。</span>
-<span class="c1"># ret9 = &#39;title,Tilte,atre,&#39;.split(&#39;t&#39;)</span>
-<span class="c1"># print(ret9)</span>
-<span class="c1"># ret91 = &#39;title,Tilte,atre,&#39;.rsplit(&#39;t&#39;,1)</span>
-<span class="c1"># print(ret91)</span>
+<span class="c1">#split 以什么分割，最终形成一个列表此列表不含有这个分割的元素。</span>
+<span class="c1"># ret9 = &#39;title,Tilte,atre,&#39;.split(&#39;t&#39;)</span>
+<span class="c1"># print(ret9)</span>
+<span class="c1"># ret91 = &#39;title,Tilte,atre,&#39;.rsplit(&#39;t&#39;,1)</span>
+<span class="c1"># print(ret91)</span>
 
-<span class="c1">#format的三种玩法 格式化输出</span>
+<span class="c1">#format的三种玩法 格式化输出</span>
 <span class="n">res</span><span class="o">=</span><span class="s1">&#39;{} {} {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;egon&#39;</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="s1">&#39;male&#39;</span><span class="p">)</span>
 <span class="n">res</span><span class="o">=</span><span class="s1">&#39;{1} {0} {1}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;egon&#39;</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="s1">&#39;male&#39;</span><span class="p">)</span>
 <span class="n">res</span><span class="o">=</span><span class="s1">&#39;{name} {age} {sex}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">sex</span><span class="o">=</span><span class="s1">&#39;male&#39;</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;egon&#39;</span><span class="p">,</span><span class="n">age</span><span class="o">=</span><span class="mi">18</span><span class="p">)</span>
 
-<span class="c1">#strip</span>
+<span class="c1">#strip</span>
 <span class="n">name</span><span class="o">=</span><span class="s1">&#39;*barry**&#39;</span>
 <span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">strip</span><span class="p">(</span><span class="s1">&#39;*&#39;</span><span class="p">))</span>
 <span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s1">&#39;*&#39;</span><span class="p">))</span>
 <span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">&#39;*&#39;</span><span class="p">))</span>
 
-<span class="c1">#replace</span>
+<span class="c1">#replace</span>
 <span class="n">name</span><span class="o">=</span><span class="s1">&#39;alex say :i have one tesla,my name is alex&#39;</span>
 <span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;alex&#39;</span><span class="p">,</span><span class="s1">&#39;SB&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
 
-<span class="c1">#####is系列</span>
+<span class="c1">#####is系列</span>
 <span class="n">name</span><span class="o">=</span><span class="s1">&#39;taibai123&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">isalnum</span><span class="p">())</span> <span class="c1">#字符串由字母或数字组成</span>
-<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">isalpha</span><span class="p">())</span> <span class="c1">#字符串只由字母组成</span>
-<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">isdecimal</span><span class="p">())</span> <span class="c1">#字符串只由十进制组成</span>
+<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">isalnum</span><span class="p">())</span> <span class="c1">#字符串由字母或数字组成</span>
+<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">isalpha</span><span class="p">())</span> <span class="c1">#字符串只由字母组成</span>
+<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">isdecimal</span><span class="p">())</span> <span class="c1">#字符串只由十进制组成</span>
 
 
-<span class="c1">#############下面这些方法在数据类型补充时会讲到，现在不讲####################</span>
-<span class="c1">#寻找字符串中的元素是否存在</span>
-<span class="c1"># ret6 = a4.find(&#34;fjdk&#34;,1,6)</span>
-<span class="c1"># print(ret6)  # 返回的找到的元素的索引，如果找不到返回-1</span>
+<span class="c1">#############下面这些方法在数据类型补充时会讲到，现在不讲####################</span>
+<span class="c1">#寻找字符串中的元素是否存在</span>
+<span class="c1"># ret6 = a4.find(&#34;fjdk&#34;,1,6)</span>
+<span class="c1"># print(ret6)  # 返回的找到的元素的索引，如果找不到返回-1</span>
 
-<span class="c1"># ret61 = a4.index(&#34;fjdk&#34;,4,6)</span>
-<span class="c1"># print(ret61) # 返回的找到的元素的索引，找不到报错。</span>
+<span class="c1"># ret61 = a4.index(&#34;fjdk&#34;,4,6)</span>
+<span class="c1"># print(ret61) # 返回的找到的元素的索引，找不到报错。</span>
 
-<span class="c1">#captalize,swapcase,title</span>
-<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">capitalize</span><span class="p">())</span> <span class="c1">#首字母大写</span>
-<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">swapcase</span><span class="p">())</span> <span class="c1">#大小写翻转</span>
+<span class="c1">#captalize,swapcase,title</span>
+<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">capitalize</span><span class="p">())</span> <span class="c1">#首字母大写</span>
+<span class="k">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">swapcase</span><span class="p">())</span> <span class="c1">#大小写翻转</span>
 <span class="n">msg</span><span class="o">=</span><span class="s1">&#39;taibai say hi&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">title</span><span class="p">())</span> <span class="c1">#每个单词的首字母大写</span>
+<span class="k">print</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">title</span><span class="p">())</span> <span class="c1">#每个单词的首字母大写</span>
 
-<span class="c1"># 内同居中，总长度，空白处填充</span>
+<span class="c1"># 内同居中，总长度，空白处填充</span>
 <span class="n">ret2</span> <span class="o">=</span> <span class="n">a1</span><span class="o">.</span><span class="n">center</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="s2">&#34;*&#34;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">ret2</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -2171,7 +2171,7 @@ print(a[7])
 <p>例如：‘1 True alex’ 像这样的字符串，我如果通过切片或者其他方法将1 True alex 取出来，他也只能是字符串，但是我想要得到数字的1，布尔值的True，必须还要转化，是不是很麻烦。</p>
 <p>所以python给咱们也提供了一类数据类型，他能承载多种数据类型，这类数据类型被称作容器类数据类型可以存储大量的数据。列表就属于容器类的数据类型。</p>
 <p>**What:**这个数据类型就是list列表。</p>
-<p>列表是python的基础数据类型之一 ,其他编程语言也有类似的数据类型.比如JS中的数 组, java中的数组等等. 它是以[ ]括起来, 每个元素用' , &lsquo;隔开而且可以存放各种数据类型: 列表是python中的基础数据类型之一，其他语言中也有类似于列表的数据类</p>
+<p>列表是python的基础数据类型之一 ,其他编程语言也有类似的数据类型.比如JS中的数 组, java中的数组等等. 它是以[ ]括起来, 每个元素用&rsquo; , &lsquo;隔开而且可以存放各种数据类型: 列表是python中的基础数据类型之一，其他语言中也有类似于列表的数据类</p>
 <p>型，比如js中叫数组，他是以[]括起来，每个元素以逗号隔开，而且他里面可以存放各种数据类型比如：</p>
 <p>li = [‘alex’,123,Ture,(1,2,3,’wusir’),[1,2,3,’小明’,],{‘name’:’alex’}]</p>
 <p>列表相比于字符串，不仅可以储存不同的数据类型，而且可以储存大量数据，32位python的限制是 536870912 个元素,64位python的限制是 1152921504606846975 个元素。而且列表是有序的，有索引值，可切片，方便取值。</p>
@@ -2196,21 +2196,21 @@ print(a[7])
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 创建一个列表有三种方式：</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 创建一个列表有三种方式：</span>
 
-<span class="c1"># 方式一：（常用）</span>
+<span class="c1"># 方式一：（常用）</span>
 <span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;太白&#39;</span><span class="p">]</span>
 
 
-<span class="c1"># 方式二：（不常用）</span>
-<span class="n">l1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>  <span class="c1"># 空列表</span>
-<span class="c1"># l1 = list(iterable)  # 可迭代对象</span>
+<span class="c1"># 方式二：（不常用）</span>
+<span class="n">l1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>  <span class="c1"># 空列表</span>
+<span class="c1"># l1 = list(iterable)  # 可迭代对象</span>
 <span class="n">l1</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="s1">&#39;123&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">)</span>  <span class="c1"># [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">)</span>  <span class="c1"># [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;]</span>
 
-<span class="c1"># 方式三：列表推导式（后面的课程会讲到）</span>
+<span class="c1"># 方式三：列表推导式（后面的课程会讲到）</span>
 <span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">)]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">)</span>  <span class="c1"># [1, 2, 3, 4]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">)</span>  <span class="c1"># [1, 2, 3, 4]</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>2.4.2 <strong>列表的索引切片</strong></p>
@@ -2226,12 +2226,12 @@ print(a[7])
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">666</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  <span class="c1"># &#39;a&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># 666</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>  <span class="c1"># [&#39;b&#39;, &#39;太白&#39;]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># [&#39;a&#39;, &#39;b&#39;, &#39;太白&#39;, 3]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># [&#39;a&#39;, &#39;太白&#39;, 666]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># [666, 3, &#39;太白&#39;, &#39;b&#39;, &#39;a&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  <span class="c1"># &#39;a&#39;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># 666</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>  <span class="c1"># [&#39;b&#39;, &#39;太白&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># [&#39;a&#39;, &#39;b&#39;, &#39;太白&#39;, 3]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># [&#39;a&#39;, &#39;太白&#39;, 666]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># [666, 3, &#39;太白&#39;, &#39;b&#39;, &#39;a&#39;]</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>相应练习题</p>
@@ -2271,17 +2271,17 @@ print(a[7])
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># append 追加，给列表的最后面追加一个元素</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># append 追加，给列表的最后面追加一个元素</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">666</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [1, 2, &#39;a&#39;, 666]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [1, 2, &#39;a&#39;, 666]</span>
 
-<span class="c1"># insert  插入在列表的任意位置插入元素</span>
+<span class="c1"># insert  插入在列表的任意位置插入元素</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;太白&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [1, &#39;太白&#39;, 2, &#39;a&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [1, &#39;太白&#39;, 2, &#39;a&#39;]</span>
 
-<span class="c1"># extend  迭代着追加，在列表的最后面迭代着追加一组数据</span>
+<span class="c1"># extend  迭代着追加，在列表的最后面迭代着追加一组数据</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="s1">&#39;太白a&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span>
@@ -2323,36 +2323,36 @@ print(a[7])
 </span><span class="lnt">30
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># pop  通过索引删除列表中对应的元素，该方法有返回值，返回值为删除的元素</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># pop  通过索引删除列表中对应的元素，该方法有返回值，返回值为删除的元素</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="n">ret</span> <span class="o">=</span> <span class="n">l</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">ret</span><span class="p">,</span><span class="n">l</span><span class="p">)</span> <span class="c1"># alex [&#39;太白&#39;, &#39;WuSir&#39;, &#39;女神&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ret</span><span class="p">,</span><span class="n">l</span><span class="p">)</span> <span class="c1"># alex [&#39;太白&#39;, &#39;WuSir&#39;, &#39;女神&#39;]</span>
 
-<span class="c1"># remove  通过元素删除列表中该元素</span>
+<span class="c1"># remove  通过元素删除列表中该元素</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;alex&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;, &#39;WuSir&#39;, &#39;女神&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;, &#39;WuSir&#39;, &#39;女神&#39;]</span>
 
-<span class="c1"># clear 清空列表</span>
+<span class="c1"># clear 清空列表</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># []  </span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># []  </span>
 
-<span class="c1"># del</span>
-<span class="c1">#按照索引删除该元素</span>
+<span class="c1"># del</span>
+<span class="c1">#按照索引删除该元素</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="k">del</span> <span class="n">l</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;, &#39;alex&#39;, &#39;女神&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;, &#39;alex&#39;, &#39;女神&#39;]</span>
 
-<span class="c1"># 切片删除该元素</span>
+<span class="c1"># 切片删除该元素</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="k">del</span> <span class="n">l</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;]</span>
 
-<span class="c1"># 切片(步长)删除该元素</span>
+<span class="c1"># 切片(步长)删除该元素</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="k">del</span> <span class="n">l</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;alex&#39;, &#39;女神&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;alex&#39;, &#39;女神&#39;]</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>2.4.5. <strong>改</strong></p>
@@ -2375,20 +2375,20 @@ print(a[7])
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 按照索引改值</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 按照索引改值</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;男神&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;男神&#39;, &#39;alex&#39;, &#39;WuSir&#39;, &#39;女神&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;男神&#39;, &#39;alex&#39;, &#39;WuSir&#39;, &#39;女神&#39;]</span>
 
-<span class="c1"># 按照切片改值(迭代着增加)</span>
+<span class="c1"># 按照切片改值(迭代着增加)</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;abcdefg&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;, &#39;g&#39;, &#39;女神&#39;] </span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;太白&#39;, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;, &#39;g&#39;, &#39;女神&#39;] </span>
 
-<span class="c1"># 按照切片(步长)改值(必须一一对应)</span>
+<span class="c1"># 按照切片(步长)改值(必须一一对应)</span>
 <span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;alex&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">]</span>
 <span class="n">l</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;对应&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;对&#39;, &#39;alex&#39;, &#39;应&#39;, &#39;女神&#39;]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="p">)</span> <span class="c1"># [&#39;对&#39;, &#39;alex&#39;, &#39;应&#39;, &#39;女神&#39;]</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>2.4.6. <strong>查</strong></p>
@@ -2429,9 +2429,9 @@ print(a[7])
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
-<span class="mi">2</span> <span class="n">a</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span><span class="c1"># 他没有返回值，所以只能打印a</span>
+<span class="mi">2</span> <span class="n">a</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span><span class="c1"># 他没有返回值，所以只能打印a</span>
 <span class="mi">3</span> <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-<span class="mi">4</span> <span class="n">a</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span><span class="c1">#他也没有返回值，所以只能打印a</span>
+<span class="mi">4</span> <span class="n">a</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span><span class="c1">#他也没有返回值，所以只能打印a</span>
 <span class="mi">5</span> <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -2446,8 +2446,8 @@ print(a[7])
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
 <span class="n">l2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
-<span class="c1"># print(l1+l2)  # [1, 2, 3, 4, 5, 6]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="o">*</span><span class="mi">3</span><span class="p">)</span>  <span class="c1"># [1, 2, 3, 1, 2, 3, 1, 2, 3]</span>
+<span class="c1"># print(l1+l2)  # [1, 2, 3, 4, 5, 6]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">l1</span><span class="o">*</span><span class="mi">3</span><span class="p">)</span>  <span class="c1"># [1, 2, 3, 1, 2, 3, 1, 2, 3]</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>相应练习题</p>
@@ -2524,12 +2524,12 @@ print(a[7])
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tu1</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">666</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  <span class="c1"># &#39;a&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># 666</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>  <span class="c1"># (&#39;b&#39;, &#39;太白&#39;)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># (&#39;a&#39;, &#39;b&#39;, &#39;太白&#39;, 3)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># (&#39;a&#39;, &#39;太白&#39;, 666)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># (666, 3, &#39;太白&#39;, &#39;b&#39;, &#39;a&#39;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>  <span class="c1"># &#39;a&#39;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># 666</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>  <span class="c1"># (&#39;b&#39;, &#39;太白&#39;)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># (&#39;a&#39;, &#39;b&#39;, &#39;太白&#39;, 3)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># (&#39;a&#39;, &#39;太白&#39;, 666)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu1</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># (666, 3, &#39;太白&#39;, &#39;b&#39;, &#39;a&#39;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>2.5.2 <strong>元组其他操作方法</strong></p>
@@ -2543,7 +2543,7 @@ print(a[7])
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 可以利用for循环查询</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 可以利用for循环查询</span>
 
 <span class="n">tu1</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">666</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tu1</span><span class="p">:</span>
@@ -2558,7 +2558,7 @@ print(a[7])
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tu</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="p">],</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;太白&#39;</span><span class="p">))</span> <span class="c1"># 0</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;太白&#39;</span><span class="p">))</span> <span class="c1"># 0</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>count</strong>: 获取某元素在列表中出现的次数</p>
@@ -2569,7 +2569,7 @@ print(a[7])
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tu</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;WuSir&#39;</span><span class="p">,</span> <span class="s1">&#39;吴超&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">tu</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;太白&#39;</span><span class="p">))</span> <span class="c1"># 2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">tu</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;太白&#39;</span><span class="p">))</span> <span class="c1"># 2</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>2.5.3 len</p>
@@ -2638,34 +2638,34 @@ print(a[7])
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 创建字典的几种方式：</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 创建字典的几种方式：</span>
 
-<span class="c1"># 方式1:</span>
+<span class="c1"># 方式1:</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(((</span><span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">),(</span><span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="mi">2</span><span class="p">),(</span><span class="s1">&#39;three&#39;</span><span class="p">,</span> <span class="mi">3</span><span class="p">)))</span>
-<span class="c1"># dic = dict([(&#39;one&#39;, 1),(&#39;two&#39;, 2),(&#39;three&#39;, 3)])</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>  <span class="c1"># {&#39;one&#39;: 1, &#39;two&#39;: 2, &#39;three&#39;: 3}</span>
+<span class="c1"># dic = dict([(&#39;one&#39;, 1),(&#39;two&#39;, 2),(&#39;three&#39;, 3)])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>  <span class="c1"># {&#39;one&#39;: 1, &#39;two&#39;: 2, &#39;three&#39;: 3}</span>
 
 
-<span class="c1"># 方式2:</span>
+<span class="c1"># 方式2:</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">one</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">two</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">three</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>  <span class="c1"># {&#39;one&#39;: 1, &#39;two&#39;: 2, &#39;three&#39;: 3}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>  <span class="c1"># {&#39;one&#39;: 1, &#39;two&#39;: 2, &#39;three&#39;: 3}</span>
 
 
-<span class="c1"># 方式3:</span>
+<span class="c1"># 方式3:</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">({</span><span class="s1">&#39;one&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;three&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">})</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>  <span class="c1"># {&#39;one&#39;: 1, &#39;two&#39;: 2, &#39;three&#39;: 3}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>  <span class="c1"># {&#39;one&#39;: 1, &#39;two&#39;: 2, &#39;three&#39;: 3}</span>
 
-<span class="c1"># 方式5: 后面会讲到先了解</span>
+<span class="c1"># 方式5: 后面会讲到先了解</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">([</span><span class="s1">&#39;one&#39;</span><span class="p">,</span> <span class="s1">&#39;two&#39;</span><span class="p">,</span> <span class="s1">&#39;three&#39;</span><span class="p">],[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]))</span>
 <span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span>
 
-<span class="c1"># 方式6: 字典推导式 后面会讲到</span>
-<span class="c1"># dic = { k: v for k,v in [(&#39;one&#39;, 1),(&#39;two&#39;, 2),(&#39;three&#39;, 3)]}</span>
-<span class="c1"># print(dic)</span>
+<span class="c1"># 方式6: 字典推导式 后面会讲到</span>
+<span class="c1"># dic = { k: v for k,v in [(&#39;one&#39;, 1),(&#39;two&#39;, 2),(&#39;three&#39;, 3)]}</span>
+<span class="c1"># print(dic)</span>
 
-<span class="c1"># 方式7:利用fromkey后面会讲到。</span>
-<span class="c1"># dic = dict.fromkeys(&#39;abcd&#39;,&#39;太白&#39;)</span>
-<span class="c1"># print(dic)  # {&#39;a&#39;: &#39;太白&#39;, &#39;b&#39;: &#39;太白&#39;, &#39;c&#39;: &#39;太白&#39;, &#39;d&#39;: &#39;太白&#39;}</span>
+<span class="c1"># 方式7:利用fromkey后面会讲到。</span>
+<span class="c1"># dic = dict.fromkeys(&#39;abcd&#39;,&#39;太白&#39;)</span>
+<span class="c1"># print(dic)  # {&#39;a&#39;: &#39;太白&#39;, &#39;b&#39;: &#39;太白&#39;, &#39;c&#39;: &#39;太白&#39;, &#39;d&#39;: &#39;太白&#39;}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>2.6.3 验证字典的合法性</strong></p>
@@ -2686,19 +2686,19 @@ print(a[7])
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 合法</span>
-<span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="mi">123</span><span class="p">:</span> <span class="mi">456</span><span class="p">,</span> <span class="bp">True</span><span class="p">:</span> <span class="mi">999</span><span class="p">,</span> <span class="s2">&#34;id&#34;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s1">&#39;sylar&#39;</span><span class="p">,</span> <span class="s2">&#34;age&#34;</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span> <span class="s2">&#34;stu&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;帅</span>
-<span class="err">哥</span><span class="s1">&#39;, &#39;</span><span class="err">美⼥</span><span class="s1">&#39;], (1, 2, 3): &#39;</span><span class="err">麻花藤</span><span class="s1">&#39;}</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 合法</span>
+<span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="mi">123</span><span class="p">:</span> <span class="mi">456</span><span class="p">,</span> <span class="bp">True</span><span class="p">:</span> <span class="mi">999</span><span class="p">,</span> <span class="s2">&#34;id&#34;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s1">&#39;sylar&#39;</span><span class="p">,</span> <span class="s2">&#34;age&#34;</span><span class="p">:</span> <span class="mi">18</span><span class="p">,</span> <span class="s2">&#34;stu&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;帅</span>
+<span class="err">哥</span><span class="s1">&#39;, &#39;</span><span class="err">美⼥</span><span class="s1">&#39;], (1, 2, 3): &#39;</span><span class="err">麻花藤</span><span class="s1">&#39;}</span>
 <span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="mi">123</span><span class="p">])</span>
 <span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="bp">True</span><span class="p">])</span>
 <span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">])</span>
 <span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="s1">&#39;stu&#39;</span><span class="p">])</span>
 <span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)])</span>
 
-<span class="c1"># 不合法</span>
-<span class="c1"># dic = {[1, 2, 3]: &#39;周杰伦&#39;} # list是可变的. 不能作为key</span>
-<span class="c1"># dic = {{1: 2}: &#34;哈哈哈&#34;} # dict是可变的. 不能作为key</span>
-<span class="n">dic</span> <span class="o">=</span> <span class="p">{{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}:</span> <span class="s1">&#39;呵呵呵&#39;</span><span class="p">}</span> <span class="c1"># set是可变的, 不能作为key</span>
+<span class="c1"># 不合法</span>
+<span class="c1"># dic = {[1, 2, 3]: &#39;周杰伦&#39;} # list是可变的. 不能作为key</span>
+<span class="c1"># dic = {{1: 2}: &#34;哈哈哈&#34;} # dict是可变的. 不能作为key</span>
+<span class="n">dic</span> <span class="o">=</span> <span class="p">{{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}:</span> <span class="s1">&#39;呵呵呵&#39;</span><span class="p">}</span> <span class="c1"># set是可变的, 不能作为key</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>2.6.4 字典的常用操作方法</strong></p>
@@ -2724,23 +2724,23 @@ print(a[7])
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 通过键值对直接增加</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 通过键值对直接增加</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
-<span class="n">dic</span><span class="p">[</span><span class="s1">&#39;weight&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">75</span> <span class="c1"># 没有weight这个键，就增加键值对</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;weight&#39;: 75}</span>
-<span class="n">dic</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;barry&#39;</span> <span class="c1"># 有name这个键，就成了字典的改值</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;barry&#39;, &#39;age&#39;: 18, &#39;weight&#39;: 75}</span>
+<span class="n">dic</span><span class="p">[</span><span class="s1">&#39;weight&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">75</span> <span class="c1"># 没有weight这个键，就增加键值对</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;weight&#39;: 75}</span>
+<span class="n">dic</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;barry&#39;</span> <span class="c1"># 有name这个键，就成了字典的改值</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;barry&#39;, &#39;age&#39;: 18, &#39;weight&#39;: 75}</span>
 
-<span class="c1"># setdefault</span>
+<span class="c1"># setdefault</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
-<span class="n">dic</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s1">&#39;height&#39;</span><span class="p">,</span><span class="mi">175</span><span class="p">)</span> <span class="c1"># 没有height此键，则添加</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;height&#39;: 175}</span>
-<span class="n">dic</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span><span class="s1">&#39;barry&#39;</span><span class="p">)</span> <span class="c1"># 有此键则不变</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;height&#39;: 175}</span>
-<span class="c1">#它有返回值</span>
+<span class="n">dic</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s1">&#39;height&#39;</span><span class="p">,</span><span class="mi">175</span><span class="p">)</span> <span class="c1"># 没有height此键，则添加</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;height&#39;: 175}</span>
+<span class="n">dic</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span><span class="s1">&#39;barry&#39;</span><span class="p">)</span> <span class="c1"># 有此键则不变</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;height&#39;: 175}</span>
+<span class="c1">#它有返回值</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">ret</span> <span class="o">=</span> <span class="n">dic</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">ret</span><span class="p">)</span>  <span class="c1"># 太白</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ret</span><span class="p">)</span>  <span class="c1"># 太白</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>删</strong></p>
@@ -2772,29 +2772,29 @@ print(a[7])
 </span><span class="lnt">24
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># pop 通过key删除字典的键值对，有返回值，可设置返回值。</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># pop 通过key删除字典的键值对，有返回值，可设置返回值。</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
-<span class="c1"># ret = dic.pop(&#39;name&#39;)</span>
-<span class="c1"># print(ret,dic) # 太白 {&#39;age&#39;: 18}</span>
+<span class="c1"># ret = dic.pop(&#39;name&#39;)</span>
+<span class="c1"># print(ret,dic) # 太白 {&#39;age&#39;: 18}</span>
 <span class="n">ret1</span> <span class="o">=</span> <span class="n">dic</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;n&#39;</span><span class="p">,</span><span class="bp">None</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">ret1</span><span class="p">,</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># None {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ret1</span><span class="p">,</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># None {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18}</span>
 
-<span class="c1">#popitem 3.5版本之前，popitem为随机删除，3.6之后为删除最后一个，有返回值</span>
+<span class="c1">#popitem 3.5版本之前，popitem为随机删除，3.6之后为删除最后一个，有返回值</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">ret</span> <span class="o">=</span> <span class="n">dic</span><span class="o">.</span><span class="n">popitem</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="n">ret</span><span class="p">,</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># (&#39;age&#39;, 18) {&#39;name&#39;: &#39;太白&#39;}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">ret</span><span class="p">,</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># (&#39;age&#39;, 18) {&#39;name&#39;: &#39;太白&#39;}</span>
 
-<span class="c1">#clear 清空字典</span>
+<span class="c1">#clear 清空字典</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">dic</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {}</span>
 
-<span class="c1"># del</span>
-<span class="c1"># 通过键删除键值对</span>
+<span class="c1"># del</span>
+<span class="c1"># 通过键删除键值对</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="k">del</span> <span class="n">dic</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;age&#39;: 18}</span>
-<span class="c1">#删除整个字典</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;age&#39;: 18}</span>
+<span class="c1">#删除整个字典</span>
 <span class="k">del</span> <span class="n">dic</span>
 </code></pre></td></tr></table>
 </div>
@@ -2822,25 +2822,25 @@ print(a[7])
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 通过键值对直接改</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 通过键值对直接改</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">dic</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;barry&#39;</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;barry&#39;, &#39;age&#39;: 18}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;barry&#39;, &#39;age&#39;: 18}</span>
 
-<span class="c1"># update</span>
+<span class="c1"># update</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">dic</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">sex</span><span class="o">=</span><span class="s1">&#39;男&#39;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">175</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;sex&#39;: &#39;男&#39;, &#39;height&#39;: 175}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;sex&#39;: &#39;男&#39;, &#39;height&#39;: 175}</span>
 
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">dic</span><span class="o">.</span><span class="n">update</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">),(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">),(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">),(</span><span class="mi">4</span><span class="p">,</span> <span class="s1">&#39;d&#39;</span><span class="p">)])</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, 1: &#39;a&#39;, 2: &#39;b&#39;, 3: &#39;c&#39;, 4: &#39;d&#39;}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, 1: &#39;a&#39;, 2: &#39;b&#39;, 3: &#39;c&#39;, 4: &#39;d&#39;}</span>
 
 <span class="n">dic1</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;jin&#34;</span><span class="p">,</span><span class="s2">&#34;age&#34;</span><span class="p">:</span><span class="mi">18</span><span class="p">,</span><span class="s2">&#34;sex&#34;</span><span class="p">:</span><span class="s2">&#34;male&#34;</span><span class="p">}</span>
 <span class="n">dic2</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&#34;name&#34;</span><span class="p">:</span><span class="s2">&#34;alex&#34;</span><span class="p">,</span><span class="s2">&#34;weight&#34;</span><span class="p">:</span><span class="mi">75</span><span class="p">}</span>
 <span class="n">dic1</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">dic2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic1</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;alex&#39;, &#39;age&#39;: 18, &#39;sex&#39;: &#39;male&#39;, &#39;weight&#39;: 75}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic2</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;alex&#39;, &#39;weight&#39;: 75} </span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic1</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;alex&#39;, &#39;age&#39;: 18, &#39;sex&#39;: &#39;male&#39;, &#39;weight&#39;: 75}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic2</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;alex&#39;, &#39;weight&#39;: 75} </span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>查</strong></p>
@@ -2874,32 +2874,32 @@ print(a[7])
 </span><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 通过键查询</span>
-<span class="c1"># 直接dic[key](没有此键会报错)</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 通过键查询</span>
+<span class="c1"># 直接dic[key](没有此键会报错)</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span> <span class="c1"># 太白</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">])</span> <span class="c1"># 太白</span>
 
-<span class="c1"># get</span>
+<span class="c1"># get</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">v</span> <span class="o">=</span> <span class="n">dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c1"># &#39;太白&#39;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c1"># &#39;太白&#39;</span>
 <span class="n">v</span> <span class="o">=</span> <span class="n">dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;name1&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c1"># None</span>
+<span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c1"># None</span>
 <span class="n">v</span> <span class="o">=</span> <span class="n">dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;name2&#39;</span><span class="p">,</span><span class="s1">&#39;没有此键&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c1"># 没有此键 </span>
+<span class="k">print</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="c1"># 没有此键 </span>
 
 
 <span class="n">keys</span><span class="p">()</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="c1"># dict_keys([&#39;name&#39;, &#39;age&#39;]) </span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="c1"># dict_keys([&#39;name&#39;, &#39;age&#39;]) </span>
 
 <span class="n">values</span><span class="p">()</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">values</span><span class="p">())</span> <span class="c1"># dict_values([&#39;太白&#39;, 18])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">values</span><span class="p">())</span> <span class="c1"># dict_values([&#39;太白&#39;, 18])</span>
 
 <span class="n">items</span><span class="p">()</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">items</span><span class="p">())</span> <span class="c1"># dict_items([(&#39;name&#39;, &#39;太白&#39;), (&#39;age&#39;, 18)])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dic</span><span class="o">.</span><span class="n">items</span><span class="p">())</span> <span class="c1"># dict_items([(&#39;name&#39;, &#39;太白&#39;), (&#39;age&#39;, 18)])</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>相关练习题</p>
@@ -2986,12 +2986,12 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 
 <span class="err">结果</span><span class="p">:</span>
 <span class="n">dict_keys</span><span class="p">([</span><span class="s1">&#39;剑圣&#39;</span><span class="p">,</span> <span class="s1">&#39;哈啥给&#39;</span><span class="p">,</span> <span class="s1">&#39;大宝剑&#39;</span><span class="p">])</span>
-<span class="c1"># 一个高仿列表,存放的都是字典中的key</span>
+<span class="c1"># 一个高仿列表,存放的都是字典中的key</span>
 
-<span class="c1"># 并且这个高仿的列表可以转化成列表</span>
+<span class="c1"># 并且这个高仿的列表可以转化成列表</span>
 <span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">key_list</span><span class="p">))</span>
 
-<span class="c1"># 它还可以循环打印</span>
+<span class="c1"># 它还可以循环打印</span>
 
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;剑圣&#39;</span><span class="p">:</span><span class="s1">&#39;易&#39;</span><span class="p">,</span><span class="s1">&#39;哈啥给&#39;</span><span class="p">:</span><span class="s1">&#39;剑豪&#39;</span><span class="p">,</span><span class="s1">&#39;大宝剑&#39;</span><span class="p">:</span><span class="s1">&#39;盖伦&#39;</span><span class="p">}</span>
 
@@ -3005,11 +3005,11 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 
 <span class="err">结果</span><span class="p">:</span>
 <span class="n">dict_values</span><span class="p">([</span><span class="s1">&#39;易&#39;</span><span class="p">,</span> <span class="s1">&#39;剑豪&#39;</span><span class="p">,</span> <span class="s1">&#39;盖伦&#39;</span><span class="p">])</span>
-<span class="c1">#一个高仿列表,存放都是字典中的value</span>
-<span class="c1"># 并且这个高仿的列表可以转化成列表</span>
+<span class="c1">#一个高仿列表,存放都是字典中的value</span>
+<span class="c1"># 并且这个高仿的列表可以转化成列表</span>
 <span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">value_list</span><span class="p">))</span>
 
-<span class="c1"># 它还可以循环打印</span>
+<span class="c1"># 它还可以循环打印</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">dic</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>   
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 
@@ -3019,12 +3019,12 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <span class="err">结果</span><span class="p">:</span>
 <span class="n">dict_items</span><span class="p">([(</span><span class="s1">&#39;剑圣&#39;</span><span class="p">,</span> <span class="s1">&#39;易&#39;</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;哈啥给&#39;</span><span class="p">,</span> <span class="s1">&#39;剑豪&#39;</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;大宝剑&#39;</span><span class="p">,</span> <span class="s1">&#39;盖伦&#39;</span><span class="p">)])</span>
 
-<span class="c1"># 一个高仿列表,存放是多个元祖,元祖中第一个是字典中的键,第二个是字典中的值　　</span>
+<span class="c1"># 一个高仿列表,存放是多个元祖,元祖中第一个是字典中的键,第二个是字典中的值　　</span>
 
-<span class="c1"># 并且这个高仿的列表可以转化成列表</span>
+<span class="c1"># 并且这个高仿的列表可以转化成列表</span>
 <span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">key_value_list</span> <span class="p">))</span>
 
-<span class="c1"># 它还可以循环打印</span>
+<span class="c1"># 它还可以循环打印</span>
 <span class="n">dic</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;剑圣&#39;</span><span class="p">:</span><span class="s1">&#39;易&#39;</span><span class="p">,</span><span class="s1">&#39;哈啥给&#39;</span><span class="p">:</span><span class="s1">&#39;剑豪&#39;</span><span class="p">,</span><span class="s1">&#39;大宝剑&#39;</span><span class="p">:</span><span class="s1">&#39;盖伦&#39;</span><span class="p">}</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">dic</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
@@ -3065,7 +3065,7 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <span class="err">结果</span><span class="p">:</span>
 <span class="mi">1</span> <span class="mi">2</span>
 
-<span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;你好&#39;</span><span class="p">,</span><span class="s1">&#39;世界&#39;</span><span class="p">)</span>  <span class="c1"># 这个用专业名词就叫做元组的拆包</span>
+<span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;你好&#39;</span><span class="p">,</span><span class="s1">&#39;世界&#39;</span><span class="p">)</span>  <span class="c1"># 这个用专业名词就叫做元组的拆包</span>
 <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
 <span class="err">结果</span><span class="p">:</span>
 <span class="err">你好</span> <span class="err">世界</span>
@@ -3160,7 +3160,7 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">set1</span> <span class="o">=</span> <span class="nb">set</span><span class="p">({</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;barry&#39;</span><span class="p">})</span>
 <span class="n">set2</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;barry&#39;</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">,</span><span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, &#39;barry&#39;} {1, 2, &#39;barry&#39;}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">,</span><span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, &#39;barry&#39;} {1, 2, &#39;barry&#39;}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>2，集合的增。</p>
@@ -3183,7 +3183,7 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <span class="n">set1</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="s1">&#39;景女神&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">)</span>
 
-<span class="c1">#update：迭代着增加</span>
+<span class="c1">#update：迭代着增加</span>
 <span class="n">set1</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="s1">&#39;A&#39;</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">)</span>
 <span class="n">set1</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="s1">&#39;老师&#39;</span><span class="p">)</span>
@@ -3212,16 +3212,16 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">set1</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;alex&#39;</span><span class="p">,</span><span class="s1">&#39;wusir&#39;</span><span class="p">,</span><span class="s1">&#39;ritian&#39;</span><span class="p">,</span><span class="s1">&#39;egon&#39;</span><span class="p">,</span><span class="s1">&#39;barry&#39;</span><span class="p">}</span>
 
-<span class="n">set1</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;alex&#39;</span><span class="p">)</span>  <span class="c1"># 删除一个元素</span>
+<span class="n">set1</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;alex&#39;</span><span class="p">)</span>  <span class="c1"># 删除一个元素</span>
 <span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">)</span>
 
-<span class="n">set1</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>  <span class="c1"># 随机删除一个元素</span>
+<span class="n">set1</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>  <span class="c1"># 随机删除一个元素</span>
 <span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">)</span>
 
-<span class="n">set1</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>  <span class="c1"># 清空集合</span>
+<span class="n">set1</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>  <span class="c1"># 清空集合</span>
 <span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">)</span>
 
-<span class="k">del</span> <span class="n">set1</span>  <span class="c1"># 删除集合</span>
+<span class="k">del</span> <span class="n">set1</span>  <span class="c1"># 删除集合</span>
 <span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -3237,8 +3237,8 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">set1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">}</span>
 <span class="n">set2</span> <span class="o">=</span> <span class="p">{</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">&amp;</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {4, 5}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># {4, 5}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">&amp;</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {4, 5}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># {4, 5}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>　　4.2 并集。（| 或者 union）</p>
@@ -3251,7 +3251,7 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">set1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">}</span>
 <span class="n">set2</span> <span class="o">=</span> <span class="p">{</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">|</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, 3, 4, 5, 6, 7,8}print(set2.union(set1))  # {1, 2, 3, 4, 5, 6, 7,8}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">|</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, 3, 4, 5, 6, 7,8}print(set2.union(set1))  # {1, 2, 3, 4, 5, 6, 7,8}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>　　4.3 差集。（- 或者 difference）</p>
@@ -3265,8 +3265,8 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">set1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">}</span>
 <span class="n">set2</span> <span class="o">=</span> <span class="p">{</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">-</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, 3}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># {1, 2, 3}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">-</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, 3}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># {1, 2, 3}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>　4.4反交集。 （^ 或者 symmetric_difference）</p>
@@ -3280,8 +3280,8 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">set1</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">}</span>
 <span class="n">set2</span> <span class="o">=</span> <span class="p">{</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">^</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, 3, 6, 7, 8}</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">symmetric_difference</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># {1, 2, 3, 6, 7, 8}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">^</span> <span class="n">set2</span><span class="p">)</span>  <span class="c1"># {1, 2, 3, 6, 7, 8}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">symmetric_difference</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># {1, 2, 3, 6, 7, 8}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>　　4.5子集与超集</p>
@@ -3301,10 +3301,10 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <span class="n">set2</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">}</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">set1</span> <span class="o">&lt;</span> <span class="n">set2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">issubset</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># 这两个相同，都是说明set1是set2子集。</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set1</span><span class="o">.</span><span class="n">issubset</span><span class="p">(</span><span class="n">set2</span><span class="p">))</span>  <span class="c1"># 这两个相同，都是说明set1是set2子集。</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">set2</span> <span class="o">&gt;</span> <span class="n">set1</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">set2</span><span class="o">.</span><span class="n">issuperset</span><span class="p">(</span><span class="n">set1</span><span class="p">))</span>  <span class="c1"># 这两个相同，都是说明set2是set1超集。</span>
+<span class="k">print</span><span class="p">(</span><span class="n">set2</span><span class="o">.</span><span class="n">issuperset</span><span class="p">(</span><span class="n">set1</span><span class="p">))</span>  <span class="c1"># 这两个相同，都是说明set2是set1超集。</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>5，frozenset不可变集合，让集合变成不可变类型。</p>
@@ -3315,7 +3315,7 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="nb">frozenset</span><span class="p">(</span><span class="s1">&#39;barry&#39;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="nb">type</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>  <span class="c1"># frozenset({&#39;a&#39;, &#39;y&#39;, &#39;b&#39;, &#39;r&#39;}) &lt;class &#39;frozenset&#39;&gt;</span>
+<span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="nb">type</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>  <span class="c1"># frozenset({&#39;a&#39;, &#39;y&#39;, &#39;b&#39;, &#39;r&#39;}) &lt;class &#39;frozenset&#39;&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="三其他forenumeraterange">三.其他（for，enumerate，range）。</h2>
@@ -3365,7 +3365,7 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">index</span><span class="p">,</span><span class="n">name</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">li</span><span class="p">,</span><span class="mi">1</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="n">index</span><span class="p">,</span><span class="n">name</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">li</span><span class="p">,</span> <span class="mi">100</span><span class="p">):</span>  <span class="c1"># 起始位置默认是0，可更改</span>
+<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">li</span><span class="p">,</span> <span class="mi">100</span><span class="p">):</span>  <span class="c1"># 起始位置默认是0，可更改</span>
     <span class="k">print</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>　　　　
 </code></pre></td></tr></table>
 </div>
@@ -3385,10 +3385,10 @@ print(dic) # {1: '太白', 2: '太白', 3: '太白'}
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>  <span class="c1"># 步长</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>  <span class="c1"># 步长</span>
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">):</span> <span class="c1"># 反向步长</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">2</span><span class="p">):</span> <span class="c1"># 反向步长</span>
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>

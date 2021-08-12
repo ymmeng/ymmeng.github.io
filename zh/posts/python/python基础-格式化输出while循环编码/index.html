@@ -1339,7 +1339,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1918,7 +1918,7 @@
 </span><span class="s1">job   : </span><span class="si">%s</span><span class="s1">  #代表 job 
 </span><span class="s1">Hobbie: </span><span class="si">%s</span><span class="s1">  #代表 hobbie 
 </span><span class="s1">------------- end -----------------
-</span><span class="s1">&#39;&#39;&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="n">age</span><span class="p">,</span><span class="n">job</span><span class="p">,</span><span class="n">hobbie</span><span class="p">)</span>  <span class="c1"># 这行的 % 号就是 把前面的字符串 与拓号 后面的 变量 关联起来 </span>
+</span><span class="s1">&#39;&#39;&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">name</span><span class="p">,</span><span class="n">name</span><span class="p">,</span><span class="n">age</span><span class="p">,</span><span class="n">job</span><span class="p">,</span><span class="n">hobbie</span><span class="p">)</span>  <span class="c1"># 这行的 % 号就是 把前面的字符串 与拓号 后面的 变量 关联起来 </span>
 </code></pre></td></tr></table>
 </div>
 </div><ul>
@@ -2077,7 +2077,7 @@
 </span><span class="s1">思路：所有的偶数，偶数有什么特点？ 对2取余为0，取余在python中用%表示。再循环时，你要先打印出1~100所有的数，会吧？ 在这个基础上加以改动：当count为偶数时打印，否则什么操作都不做。
 </span><span class="s1">&#39;&#39;&#39;</span>
 
-<span class="c1"># 方法一：</span>
+<span class="c1"># 方法一：</span>
 <span class="n">count</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">count</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
@@ -2086,14 +2086,14 @@
     <span class="k">if</span> <span class="n">count</span> <span class="o">==</span> <span class="mi">101</span><span class="p">:</span>
         <span class="k">break</span>
 
-<span class="c1"># 方法二:</span>
+<span class="c1"># 方法二:</span>
 <span class="n">count</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">101</span><span class="p">:</span>
     <span class="k">if</span> <span class="n">count</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
         <span class="k">print</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
     <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span>
 
-<span class="c1"># 方法三:</span>
+<span class="c1"># 方法三:</span>
 <span class="n">count</span> <span class="o">=</span> <span class="mi">2</span>
 <span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">101</span><span class="p">:</span>
     <span class="k">print</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>

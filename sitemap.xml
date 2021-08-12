@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://ymmeng.github.io/zh/sitemap.xml</loc>
-    
-      <lastmod>2020-12-11T21:11:53+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://ymmeng.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2020-03-05T14:08:48+00:00</lastmod>
-    
-  </sitemap>
-  
+	
+	<sitemap>
+	   	<loc>https://ymmeng.github.io/zh/sitemap.xml</loc>
+		
+	   	<lastmod>2021-08-11T17:25:21+02:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://ymmeng.github.io/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
 </sitemapindex>

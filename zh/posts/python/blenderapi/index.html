@@ -1339,7 +1339,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1945,7 +1945,7 @@
 <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">context</span><span class="p">):</span><span class="err">调用</span><span class="n">execute</span>
 <span class="p">{</span><span class="s1">&#39;RUNNING_MODAL&#39;</span><span class="p">}:</span><span class="err">调用</span><span class="n">modal</span><span class="err">，配合</span><span class="n">context</span><span class="o">.</span><span class="n">window_manager</span><span class="o">.</span><span class="n">modal_handler_add</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
     <span class="k">def</span> <span class="nf">invoke</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">context</span><span class="p">,</span><span class="n">event</span><span class="p">)</span>
-    <span class="c1">#event 对键盘按键的检测，在operator的执行中，对快捷键进行检测</span>
+    <span class="c1">#event 对键盘按键的检测，在operator的执行中，对快捷键进行检测</span>
     
 <span class="mi">2</span><span class="err">、</span><span class="n">execute</span>
 <span class="err">执行操作</span>
@@ -2013,13 +2013,13 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">className</span><span class="p">:</span>
-    <span class="c1">#属性</span>
+    <span class="c1">#属性</span>
     <span class="k">def</span> <span class="nf">poll</span><span class="p">():</span>
-    	<span class="c1">#运行前的手动判断</span>
+    	<span class="c1">#运行前的手动判断</span>
     <span class="k">def</span> <span class="nf">draw_header</span><span class="p">():</span>
-        <span class="c1">#绘制标题头</span>
+        <span class="c1">#绘制标题头</span>
     <span class="k">def</span> <span class="nf">draw</span><span class="p">():</span>
-        <span class="c1">#绘制主要内容</span>
+        <span class="c1">#绘制主要内容</span>
         
 <span class="o">-</span> <span class="n">bl_label</span><span class="err">：别名</span>
 <span class="o">-</span> <span class="n">bl_idname</span><span class="err">：</span><span class="n">panel的程序访问名字</span>
@@ -2035,7 +2035,7 @@
 
 <span class="err">按钮：</span>
 <span class="n">operator</span><span class="p">(</span><span class="s1">&#39;my.button&#39;</span><span class="p">,</span><span class="n">text</span><span class="o">=</span><span class="s1">&#39;name&#39;</span><span class="p">,</span><span class="n">emboss</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span><span class="n">depress</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-<span class="c1">#关键字</span>
+<span class="c1">#关键字</span>
 <span class="n">sublayout</span>	<span class="err">子布局</span>
 <span class="n">ltem</span>		<span class="err">控件项</span>
 </code></pre></td></tr></table>
@@ -2084,14 +2084,14 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">bpy</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">objects</span><span class="p">[</span><span class="s1">&#39;objectName&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span>
 <span class="n">bpy</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">actions</span><span class="p">[</span><span class="s1">&#39;curveGroupName&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fcurves</span><span class="p">[</span><span class="s1">&#39;curveName&#39;</span><span class="p">]</span>
-<span class="nb">len</span><span class="p">(</span><span class="n">boy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">)</span>					<span class="c1">#获取当前物体曲线数量</span>
-<span class="n">bpy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">mute</span> <span class="o">=</span> <span class="bp">False</span>		<span class="c1">#让曲线是否生效</span>
-<span class="n">bpy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">lock</span> <span class="o">=</span> <span class="bp">False</span>		<span class="c1">#锁定曲线</span>
-<span class="n">bpy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">select</span> <span class="o">=</span> <span class="bp">True</span>		<span class="c1">#选择该曲线</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">boy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">)</span>					<span class="c1">#获取当前物体曲线数量</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">mute</span> <span class="o">=</span> <span class="bp">False</span>		<span class="c1">#让曲线是否生效</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">lock</span> <span class="o">=</span> <span class="bp">False</span>		<span class="c1">#锁定曲线</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">context</span><span class="o">.</span><span class="n">object</span><span class="o">.</span><span class="n">animation_data</span><span class="o">.</span><span class="n">action</span><span class="o">.</span><span class="n">fcurves</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">select</span> <span class="o">=</span> <span class="bp">True</span>		<span class="c1">#选择该曲线</span>
 
-<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">graph</span><span class="o">.</span><span class="n">hide</span><span class="p">(</span><span class="n">unselected</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>						<span class="c1">#隐藏未选中的</span>
+<span class="n">bpy</span><span class="o">.</span><span class="n">ops</span><span class="o">.</span><span class="n">graph</span><span class="o">.</span><span class="n">hide</span><span class="p">(</span><span class="n">unselected</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>						<span class="c1">#隐藏未选中的</span>
 <span class="n">bpy</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">window_managers</span><span class="p">[</span><span class="s1">&#39;WinMan&#39;</span><span class="p">]</span><span class="o">.</span><span class="p">(</span><span class="n">null</span><span class="p">)</span> <span class="o">=</span> <span class="bp">True</span>
-<span class="c1">#插入关键帧</span>
+<span class="c1">#插入关键帧</span>
 <span class="err">继承函数：</span><span class="n">bpy_struct</span><span class="o">.</span><span class="n">keyframe_insert</span>
 	<span class="p">(</span><span class="err">继承</span><span class="n">bpy_struct类</span><span class="p">)</span>
 <span class="err">参数：</span>

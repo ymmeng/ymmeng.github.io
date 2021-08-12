@@ -14,7 +14,7 @@
     <managingEditor>https://ymmengs@outlook.com (幽梦)</managingEditor>
     <webMaster>https://ymmengs@outlook.com (幽梦)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 11 Dec 2020 21:11:53 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://ymmeng.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     
@@ -32,6 +32,78 @@
         
       
 
+      
+      <item>
+        <title>Ubuntu修复grub引导失败</title>
+        <link>https://ymmeng.github.io/zh/posts/ubuntu%E4%BF%AE%E5%A4%8Dgrub%E5%BC%95%E5%AF%BC%E5%A4%B1%E8%B4%A5/</link>
+        <pubDate>Wed, 11 Aug 2021 17:25:21 +0200</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Wed, 11 Aug 2021 17:25:21 +0200</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/ubuntu%E4%BF%AE%E5%A4%8Dgrub%E5%BC%95%E5%AF%BC%E5%A4%B1%E8%B4%A5/</guid>
+        <description>Ubuntu修复grub引导失败 对于grub损坏是很多使用双系统的研友都会遇到的问题，如果grub损坏，最重要的后果是进不去ubuntu里面的图形化见面，但是幸运的是硬盘没有受损。大部分人遇到这种情况</description>
+        
+        <dc:creator>Jeus</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>test</category>
+            
+          
+        
+        
+          
+            
+              <category>test</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>组织接口</title>
+        <link>https://ymmeng.github.io/zh/posts/%E7%BB%84%E7%BB%87%E6%8E%A5%E5%8F%A3/</link>
+        <pubDate>Sun, 24 Jan 2021 19:13:44 +0800</pubDate>
+        <author>https://ymmengs@outlook.com (幽梦)</author>
+        <atom:modified>Sun, 24 Jan 2021 19:13:44 +0800</atom:modified>
+        <guid>https://ymmeng.github.io/zh/posts/%E7%BB%84%E7%BB%87%E6%8E%A5%E5%8F%A3/</guid>
+        <description>组织RPC接口 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 syntax = &amp;#34;proto3&amp;#34;;package services.org;option go_package = &amp;#34;proto;proto&amp;#34;;service orgService { rpc Org(OrgID) returns (OrgInfoResponse) {}; rpc Update(OrgUpdateRequest) returns (OrgInfoResponse); rpc Members(OrgMemberRequest) returns</description>
+        
+        <dc:creator>Jeus</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>test</category>
+            
+          
+        
+        
+          
+            
+              <category>test</category>
+            
+          
+        
+        
+          
+            
+              <category>学习笔记</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>git submodule 使用</title>

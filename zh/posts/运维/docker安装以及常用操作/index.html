@@ -1339,7 +1339,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1976,14 +1976,14 @@ systemctl reset-failed docker.service
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo yum remove docker <span class="se">\
-</span><span class="se"></span>docker-client <span class="se">\
-</span><span class="se"></span>docker-client-latest <span class="se">\
-</span><span class="se"></span>docker-common <span class="se">\
-</span><span class="se"></span>docker-latest <span class="se">\
-</span><span class="se"></span>docker-latest-logrotate <span class="se">\
-</span><span class="se"></span>docker-logrotate <span class="se">\
-</span><span class="se"></span>docker-engine
+<pre class="chroma"><code class="language-sh" data-lang="sh">sudo yum remove docker <span class="se">\</span>
+docker-client <span class="se">\</span>
+docker-client-latest <span class="se">\</span>
+docker-common <span class="se">\</span>
+docker-latest <span class="se">\</span>
+docker-latest-logrotate <span class="se">\</span>
+docker-logrotate <span class="se">\</span>
+docker-engine
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="2docker基本操作">2、Docker基本操作</h2>
@@ -2001,7 +2001,7 @@ systemctl reset-failed docker.service
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-sh" data-lang="sh">docker search nginx								<span class="c1">#搜索镜像</span>
-dockerpull nginx								<span class="c1">#下载		</span>
+dockerpull nginx								<span class="c1">#下载</span>		
 docker run -d --name nginx01 -p 3344:80 nginx	<span class="c1">#后台启动</span>
 docker ps										<span class="c1">#查看进程</span>
 curl localhost:3344								<span class="c1">#查看访问源代码</span>
@@ -2088,7 +2088,7 @@ docker run...                                    <span class="c1">#运行一个�
     -v <span class="si">${</span><span class="nv">host</span><span class="p"> folder path</span><span class="si">}</span>:<span class="si">${</span><span class="nv">container</span><span class="p"> folder path</span><span class="si">}</span>   <span class="c1">#将主机目录挂在到容器内</span>
     
     
-<span class="c1"># Advance use </span>
+<span class="c1"># Advance use</span> 
 docker ps -f <span class="s2">&#34;status=exited&#34;</span>                                   <span class="c1">#显示所有退出的容器</span>
 docker ps -a -q                                                <span class="c1">#显示所有容器id</span>
 docker ps -f <span class="s2">&#34;status=exited&#34;</span> -q                                <span class="c1">#显示所有退出容器的id</span>

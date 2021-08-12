@@ -1339,7 +1339,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1915,8 +1915,8 @@
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">eat</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
 <span class="k">print</span><span class="p">(</span><span class="s1">&#39;我请你吃：&#39;</span><span class="p">,</span><span class="n">args</span><span class="p">)</span>
 <span class="n">eat</span><span class="p">(</span><span class="s1">&#39;蒸羊羔儿&#39;</span><span class="p">,</span><span class="s1">&#39;蒸熊掌&#39;</span><span class="p">,</span><span class="s1">&#39;蒸鹿尾儿&#39;</span><span class="p">,</span><span class="s1">&#39;烧花鸭&#39;</span><span class="p">,</span><span class="s1">&#39;烧雏鸡&#39;</span><span class="p">,</span><span class="s1">&#39;烧子鹅&#39;</span><span class="p">)</span>
-<span class="c1"># 运行结果：</span>
-<span class="c1">#我请你吃： (&#39;蒸羊羔儿&#39;, &#39;蒸熊掌&#39;, &#39;蒸鹿尾儿&#39;, &#39;烧花鸭&#39;, &#39;烧雏鸡&#39;, &#39;烧子鹅&#39;)</span>
+<span class="c1"># 运行结果：</span>
+<span class="c1">#我请你吃： (&#39;蒸羊羔儿&#39;, &#39;蒸熊掌&#39;, &#39;蒸鹿尾儿&#39;, &#39;烧花鸭&#39;, &#39;烧雏鸡&#39;, &#39;烧子鹅&#39;)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>解释一下上面参数的意义：首先来说args，args就是一个普通的形参，但是如果你在args前面加一个，那么就拥有了特殊的意义：在python中除了表示乘号，他是有魔法的。+args，这样设置形参，那么这个形参会将实参所有的位置参数接收，放置在一个元组中，并将这个元组赋值给args这个形参，这里起到魔法效果的是 * 而不是args，a也可以达到刚才效果，但是我们PEP8规范中规定就使用args，约定俗成的。<br />
@@ -1947,7 +1947,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-<span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白金星&#39;, &#39;sex&#39;: &#39;男&#39;}</span>
+<span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白金星&#39;, &#39;sex&#39;: &#39;男&#39;}</span>
 <span class="n">func</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;太白金星&#39;</span><span class="p">,</span><span class="n">sex</span><span class="o">=</span><span class="s1">&#39;男&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -1961,8 +1961,8 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (&#39;蒸羊羔儿&#39;, &#39;蒸熊掌&#39;, &#39;蒸鹿尾儿&#39;)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白金星&#39;, &#39;sex&#39;: &#39;男&#39;}</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (&#39;蒸羊羔儿&#39;, &#39;蒸熊掌&#39;, &#39;蒸鹿尾儿&#39;)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白金星&#39;, &#39;sex&#39;: &#39;男&#39;}</span>
 <span class="n">func</span><span class="p">(</span><span class="s1">&#39;蒸羊羔儿&#39;</span><span class="p">,</span> <span class="s1">&#39;蒸熊掌&#39;</span><span class="p">,</span> <span class="s1">&#39;蒸鹿尾儿&#39;</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;太白金星&#39;</span><span class="p">,</span><span class="n">sex</span><span class="o">=</span><span class="s1">&#39;男&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -1982,7 +1982,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">eat</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;我请你吃：&#39;</span><span class="p">,</span><span class="n">args</span><span class="p">)</span> <span class="c1"># 我请你吃： 蒸羊羔儿</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;我请你吃：&#39;</span><span class="p">,</span><span class="n">args</span><span class="p">)</span> <span class="c1"># 我请你吃： 蒸羊羔儿</span>
 <span class="n">eat</span><span class="p">(</span><span class="s1">&#39;蒸羊羔儿&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -2003,7 +2003,7 @@
 <span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
 <span class="n">tu1</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;武sir&#39;</span><span class="p">,</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">,)</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (&#39;alex&#39;, [1, 2, 3, 4], (&#39;武sir&#39;, &#39;太白&#39;, &#39;女神&#39;))</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (&#39;alex&#39;, [1, 2, 3, 4], (&#39;武sir&#39;, &#39;太白&#39;, &#39;女神&#39;))</span>
 <span class="n">func</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span><span class="n">l1</span><span class="p">,</span><span class="n">tu1</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -2023,7 +2023,7 @@
 <span class="n">l1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
 <span class="n">tu1</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;武sir&#39;</span><span class="p">,</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;女神&#39;</span><span class="p">,)</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (&#39;a&#39;, &#39;l&#39;, &#39;e&#39;, &#39;x&#39;, 1, 2, 3, 4, &#39;武sir&#39;, &#39;太白&#39;, &#39;女神&#39;)</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (&#39;a&#39;, &#39;l&#39;, &#39;e&#39;, &#39;x&#39;, 1, 2, 3, 4, &#39;武sir&#39;, &#39;太白&#39;, &#39;女神&#39;)</span>
 <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">s1</span><span class="p">,</span><span class="o">*</span><span class="n">l1</span><span class="p">,</span><span class="o">*</span><span class="n">tu1</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -2040,7 +2040,7 @@
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="n">dic1</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span> <span class="s1">&#39;太白&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span> <span class="mi">18</span><span class="p">}</span>
 <span class="n">dic2</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;hobby&#39;</span><span class="p">:</span> <span class="s1">&#39;喝茶&#39;</span><span class="p">,</span> <span class="s1">&#39;sex&#39;</span><span class="p">:</span> <span class="s1">&#39;男&#39;</span><span class="p">}</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;hobby&#39;: &#39;喝茶&#39;, &#39;sex&#39;: &#39;男&#39;}</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span> <span class="c1"># {&#39;name&#39;: &#39;太白&#39;, &#39;age&#39;: 18, &#39;hobby&#39;: &#39;喝茶&#39;, &#39;sex&#39;: &#39;男&#39;}</span>
 <span class="n">func</span><span class="p">(</span><span class="o">**</span><span class="n">dic1</span><span class="p">,</span><span class="o">**</span><span class="n">dic2</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -2059,15 +2059,15 @@
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 之前讲过的分别赋值</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 之前讲过的分别赋值</span>
 <span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
-<span class="c1"># 其实还可以这么用：</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
+<span class="c1"># 其实还可以这么用：</span>
 <span class="n">a</span><span class="p">,</span><span class="o">*</span><span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># 1 [2, 3, 4]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># 1 [2, 3, 4]</span>
 <span class="o">*</span><span class="n">rest</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">rest</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># [0, 1, 2] 3 4</span>
-<span class="k">print</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">*</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span> <span class="c1"># [1, 2, 3, 4, 5]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">rest</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="c1"># [0, 1, 2] 3 4</span>
+<span class="k">print</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">*</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]])</span> <span class="c1"># [1, 2, 3, 4, 5]</span>
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="213-形参的顺序"><strong>2.13 形参的顺序</strong></h4>
@@ -2084,7 +2084,7 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 这样位置参数a,b始终接收不到实参了，因为args全部接受完了</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 这样位置参数a,b始终接收不到实参了，因为args全部接受完了</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">sex</span><span class="o">=</span><span class="s1">&#39;男&#39;</span><span class="p">):</span>
 <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
@@ -2102,11 +2102,11 @@
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 这样也不行，我的实参的第三个参数始终都会将sex覆盖掉，这样失去了默认参数的意义。</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 这样也不行，我的实参的第三个参数始终都会将sex覆盖掉，这样失去了默认参数的意义。</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">sex</span><span class="o">=</span><span class="s1">&#39;男&#39;</span><span class="p">,</span><span class="o">*</span><span class="n">args</span><span class="p">,):</span>
-<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (4, 5)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">sex</span><span class="p">)</span> <span class="c1"># 3</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (4, 5)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sex</span><span class="p">)</span> <span class="c1"># 3</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
 <span class="n">func</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -2124,12 +2124,12 @@
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 直接报错：因为**kwargs是接受所有的关键字参数，如果你想改变默认参数sex，你永远也改变不了，因为</span>
-<span class="c1"># 它会先被**kwargs接受。</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 直接报错：因为**kwargs是接受所有的关键字参数，如果你想改变默认参数sex，你永远也改变不了，因为</span>
+<span class="c1"># 它会先被**kwargs接受。</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="o">*</span><span class="n">args</span><span class="p">,</span><span class="o">**</span><span class="n">kwargs</span><span class="p">,</span><span class="n">sex</span><span class="o">=</span><span class="s1">&#39;男&#39;</span><span class="p">,):</span>
-<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (4, 5)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">sex</span><span class="p">)</span> <span class="c1"># 3</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (4, 5)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sex</span><span class="p">)</span> <span class="c1"># 3</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
 <span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span>
 <span class="n">func</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -2152,15 +2152,15 @@
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 这样传参是错误的，因为仅限关键字参数c只接受关键字参数</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 这样传参是错误的，因为仅限关键字参数c只接受关键字参数</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="o">*</span><span class="n">args</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
-<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (4, 5)</span>
-<span class="c1"># func(1, 2, 3, 4, 5)</span>
-<span class="c1"># 这样就正确了：</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (4, 5)</span>
+<span class="c1"># func(1, 2, 3, 4, 5)</span>
+<span class="c1"># 这样就正确了：</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="o">*</span><span class="n">args</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
-<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
-<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (3, 4)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1"># 1 2</span>
+<span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="c1"># (3, 4)</span>
 <span class="k">print</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 <span class="n">func</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -2191,12 +2191,12 @@
 <span class="k">print</span><span class="p">(</span><span class="n">sex</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span>
-<span class="c1"># foo(1,2,3,4,c=6)</span>
-<span class="c1"># foo(1,2,sex=&#39;男&#39;,name=&#39;alex&#39;,hobby=&#39;old_woman&#39;)</span>
-<span class="c1"># foo(1,2,3,4,name=&#39;alex&#39;,sex=&#39;男&#39;)</span>
-<span class="c1"># foo(1,2,c=18)</span>
-<span class="c1"># foo(2, 3, [1, 2, 3],c=13,hobby=&#39;喝茶&#39;)</span>
-<span class="c1"># foo(*[1, 2, 3, 4],**{&#39;name&#39;:&#39;太白&#39;,&#39;c&#39;:12,&#39;sex&#39;:&#39;女&#39;})</span>
+<span class="c1"># foo(1,2,3,4,c=6)</span>
+<span class="c1"># foo(1,2,sex=&#39;男&#39;,name=&#39;alex&#39;,hobby=&#39;old_woman&#39;)</span>
+<span class="c1"># foo(1,2,3,4,name=&#39;alex&#39;,sex=&#39;男&#39;)</span>
+<span class="c1"># foo(1,2,c=18)</span>
+<span class="c1"># foo(2, 3, [1, 2, 3],c=13,hobby=&#39;喝茶&#39;)</span>
+<span class="c1"># foo(*[1, 2, 3, 4],**{&#39;name&#39;:&#39;太白&#39;,&#39;c&#39;:12,&#39;sex&#39;:&#39;女&#39;})</span>
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="22-名称空间作用域"><strong>2.2 名称空间，作用域</strong></h3>
@@ -2236,17 +2236,17 @@
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 如果你在全局名称空间引用一个变量，先从全局名称空间引用，全局名# 称空间如果没有，才会向内置名称空间引用。</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 如果你在全局名称空间引用一个变量，先从全局名称空间引用，全局名# 称空间如果没有，才会向内置名称空间引用。</span>
 <span class="nb">input</span> <span class="o">=</span> <span class="mi">666</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span> <span class="c1"># 666</span>
-<span class="c1"># 如果你在局部名称空间引用一个变量，先从局部名称空间引用，</span>
-<span class="c1"># 局部名称空间如果没有，才会向全局名称空间引用，全局名称空间在没有，就会向内置名称空间引用。</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span> <span class="c1"># 666</span>
+<span class="c1"># 如果你在局部名称空间引用一个变量，先从局部名称空间引用，</span>
+<span class="c1"># 局部名称空间如果没有，才会向全局名称空间引用，全局名称空间在没有，就会向内置名称空间引用。</span>
 <span class="nb">input</span> <span class="o">=</span> <span class="mi">666</span>
-<span class="k">print</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span> <span class="c1"># 666</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span> <span class="c1"># 666</span>
 <span class="nb">input</span> <span class="o">=</span> <span class="mi">666</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">():</span>
     <span class="nb">input</span> <span class="o">=</span> <span class="mi">111</span>
-    <span class="k">print</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span> <span class="c1"># 111</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span> <span class="c1"># 111</span>
 <span class="n">func</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
@@ -2290,7 +2290,7 @@
 </span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 在全局作用域下打印，则他们获取的都是全局作用域的所有的内容。</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 在全局作用域下打印，则他们获取的都是全局作用域的所有的内容。</span>
 <span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="k">print</span><span class="p">(</span><span class="nb">globals</span><span class="p">())</span>
@@ -2304,13 +2304,13 @@
 </span><span class="s1">&#39;__cached__&#39;: None, &#39;a&#39;: 2, &#39;b&#39;: 3}
 </span><span class="s1">&#39;&#39;&#39;</span>
 
-<span class="c1"># 在局部作用域中打印。</span>
+<span class="c1"># 在局部作用域中打印。</span>
 <span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="k">def</span> <span class="nf">foo</span><span class="p">():</span>
     <span class="n">c</span> <span class="o">=</span> <span class="mi">3</span>
-    <span class="k">print</span><span class="p">(</span><span class="nb">globals</span><span class="p">())</span> <span class="c1"># 和上面一样，还是全局作用域的内容</span>
-    <span class="k">print</span><span class="p">(</span><span class="nb">locals</span><span class="p">())</span> <span class="c1"># {&#39;c&#39;: 3}</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">globals</span><span class="p">())</span> <span class="c1"># 和上面一样，还是全局作用域的内容</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">locals</span><span class="p">())</span> <span class="c1"># {&#39;c&#39;: 3}</span>
 <span class="n">foo</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>
@@ -2355,7 +2355,7 @@
 </span><span class="lnt">34
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 例1：</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># 例1：</span>
 <span class="k">def</span> <span class="nf">func1</span><span class="p">():</span>
     <span class="k">print</span><span class="p">(</span><span class="s1">&#39;in func1&#39;</span><span class="p">)</span>
     <span class="k">print</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
@@ -2367,7 +2367,7 @@
 <span class="n">func2</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 
-<span class="c1"># 例2：</span>
+<span class="c1"># 例2：</span>
 <span class="k">def</span> <span class="nf">func1</span><span class="p">():</span>
     <span class="k">print</span><span class="p">(</span><span class="s1">&#39;in func1&#39;</span><span class="p">)</span>
     <span class="k">print</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
@@ -2378,7 +2378,7 @@
 <span class="k">print</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">func2</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-<span class="c1"># 例3：</span>
+<span class="c1"># 例3：</span>
 <span class="k">def</span> <span class="nf">fun2</span><span class="p">():</span> 
     <span class="k">print</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> 
     <span class="k">def</span> <span class="nf">fun3</span><span class="p">():</span> 
@@ -2412,7 +2412,7 @@
 <span class="n">func</span><span class="p">()</span>
 <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">():</span>
-    <span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span> <span class="c1"># 报错</span>
+    <span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span> <span class="c1"># 报错</span>
 <span class="n">func</span><span class="p">()</span>
 </code></pre></td></tr></table>
 </div>

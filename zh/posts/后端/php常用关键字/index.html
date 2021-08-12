@@ -1339,7 +1339,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -2148,21 +2148,21 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="nx">代码</span>
-<span class="o">&lt;?</span><span class="nx">php</span>
+<pre class="chroma"><code class="language-php" data-lang="php">代码
+<span class="cp">&lt;?php</span>
 <span class="k">echo</span> <span class="nv">$_SERVER</span><span class="p">[</span><span class="s2">&#34;SERVER_NAME&#34;</span><span class="p">];</span>
 <span class="k">echo</span> <span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>
 <span class="k">echo</span> <span class="nv">$_SERVER</span><span class="p">[</span><span class="s2">&#34;SERVER_PORT&#34;</span><span class="p">];</span>
 <span class="k">echo</span> <span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>
 <span class="k">echo</span> <span class="nv">$_SERVER</span><span class="p">[</span><span class="s2">&#34;DOCUMENT_ROOT&#34;</span><span class="p">];</span>
 <span class="k">echo</span> <span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>
-<span class="cp">?&gt;</span><span class="err">
-</span><span class="err">
-</span><span class="err">结果
-</span><span class="err">127.0.0.1
-</span><span class="err">/home/ymmeng/code/php/lara/example-app/public
-</span><span class="err">8000
-</span></code></pre></td></tr></table>
+<span class="cp">?&gt;</span>
+
+结果
+127.0.0.1
+/home/ymmeng/code/php/lara/example-app/public
+8000
+</code></pre></td></tr></table>
 </div>
 </div><h4 id="22-自定义常量define">2.2 自定义常量：define()</h4>
 <div class="highlight"><div class="chroma">
@@ -2176,14 +2176,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
 <span class="nx">define</span><span class="p">(</span><span class="s2">&#34;TOTAL&#34;</span><span class="p">,</span><span class="mi">100</span><span class="p">);</span>
 <span class="k">echo</span> <span class="nx">TOTAL</span><span class="p">;</span><span class="c1">//100
 </span><span class="c1"></span><span class="k">echo</span> <span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>
 <span class="nx">define</span><span class="p">(</span><span class="s2">&#34;TOTAL&#34;</span><span class="p">,</span><span class="mi">200</span><span class="p">);</span>
 <span class="k">echo</span> <span class="nx">TOTAL</span><span class="p">;</span><span class="c1">//100
-</span><span class="c1"></span><span class="cp">?&gt;</span><span class="err">
-</span></code></pre></td></tr></table>
+</span><span class="c1"></span><span class="cp">?&gt;</span>
+</code></pre></td></tr></table>
 </div>
 </div><h4 id="23-自定义常量const">2.3 自定义常量：const</h4>
 <div class="highlight"><div class="chroma">
@@ -2192,8 +2192,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="k">const</span> <span class="no">Name</span> <span class="o">=</span> <span class="s1">&#39;name&#39;</span><span class="p">;</span>
-<span class="k">echo</span> <span class="nx">Name</span><span class="p">;</span>
+<pre class="chroma"><code class="language-php" data-lang="php">const Name = &#39;name&#39;;
+echo Name;
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="24-访问表单变量">2.4 访问表单变量</h4>
@@ -2208,14 +2208,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
 <span class="k">echo</span> <span class="nv">$username</span><span class="p">;</span><span class="c1">//简短风格，容易与变量名混淆，不推荐使用。
 </span><span class="c1"></span><span class="k">echo</span> <span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>
 <span class="k">echo</span> <span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">];</span><span class="c1">//中等风格，4.1.0版后支持，推荐
 </span><span class="c1"></span><span class="k">echo</span> <span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>
 <span class="k">echo</span> <span class="nv">$HTTP_POST_VARS</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">];</span><span class="c1">//冗长风格，已过时，将来可能会被剔除
-</span><span class="c1"></span><span class="cp">?&gt;</span><span class="err">
-</span></code></pre></td></tr></table>
+</span><span class="c1"></span><span class="cp">?&gt;</span>
+</code></pre></td></tr></table>
 </div>
 </div><h4 id="25-字符串连接用">2.5 字符串连接用</h4>
 <div class="highlight"><div class="chroma">
@@ -2227,12 +2227,12 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
 <span class="k">echo</span> <span class="s2">&#34;the student name is ：&#34;</span><span class="o">.</span><span class="nv">$_POST</span><span class="p">[</span><span class="s1">&#39;username&#39;</span><span class="p">];</span>
 <span class="k">echo</span> <span class="s2">&#34;&lt;br/&gt;&#34;</span><span class="p">;</span>
 <span class="k">echo</span> <span class="s2">&#34;welcome to &#34;</span><span class="o">.</span><span class="s2">&#34;school&#34;</span><span class="p">;</span>
-<span class="cp">?&gt;</span><span class="err">
-</span></code></pre></td></tr></table>
+<span class="cp">?&gt;</span>
+</code></pre></td></tr></table>
 </div>
 </div><h4 id="26-魔术常量">2.6 魔术常量</h4>
 <div class="highlight"><div class="chroma">
@@ -2244,12 +2244,12 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-PHP" data-lang="PHP"><span class="o">&lt;?</span><span class="nx">php</span>
+<pre class="chroma"><code class="language-PHP" data-lang="PHP"><span class="cp">&lt;?php</span>
 <span class="k">echo</span> <span class="no">__LINE__</span><span class="p">,</span><span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>	<span class="c1">//获取当前行号
 </span><span class="c1"></span><span class="k">echo</span> <span class="no">__FILE__</span><span class="p">,</span><span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>	<span class="c1">//文件的完整路径
 </span><span class="c1"></span><span class="k">echo</span> <span class="no">__DIR__</span><span class="p">,</span><span class="s1">&#39;&lt;br/&gt;&#39;</span><span class="p">;</span>	<span class="c1">//文件的完整目录
-</span><span class="c1"></span><span class="cp">?&gt;</span><span class="err">
-</span></code></pre></td></tr></table>
+</span><span class="c1"></span><span class="cp">?&gt;</span>
+</code></pre></td></tr></table>
 </div>
 </div><h1 id="数据类型转换">数据类型转换</h1>
 <h4 id="tsp">tsp:</h4>
@@ -2261,7 +2261,7 @@
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
 <span class="nv">$num1</span> <span class="o">=</span> <span class="mi">10</span>		<span class="c1">//十进制=&gt;10
 </span><span class="c1"></span><span class="nv">$num1</span> <span class="o">=</span> <span class="mo">010</span>		<span class="c1">//八进制=&gt;8
 </span><span class="c1"></span><span class="nv">$num1</span> <span class="o">=</span> <span class="mh">0x10</span>	<span class="c1">//十六进制=&gt;16
@@ -2275,7 +2275,7 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&lt;?</span><span class="nx">php</span>
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
 <span class="nv">$num</span> <span class="o">=</span> <span class="s1">&#39;10&#39;</span><span class="p">;</span>
 <span class="nx">var_dump</span><span class="p">(</span><span class="nv">$num</span><span class="p">,(</span><span class="nx">int</span><span class="p">)</span><span class="nv">$num</span><span class="p">,(</span><span class="nx">float</span><span class="p">)</span><span class="nv">$num</span><span class="p">)</span> <span class="c1">// string(2) &#39;10&#39; int(10) float(10)
 </span></code></pre></td></tr></table>
@@ -2290,12 +2290,12 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="o">&amp;</span>	<span class="c1">//与
-</span><span class="c1"></span><span class="o">|</span>	<span class="c1">//或
-</span><span class="c1"></span><span class="o">&amp;&amp;</span>	<span class="c1">//短路与
-</span><span class="c1"></span><span class="o">||</span>	<span class="c1">//短路或 
-</span><span class="c1"></span><span class="o">!</span>	<span class="c1">//非
-</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="err">&amp;</span>	//与
+|	//或
+<span class="err">&amp;&amp;</span>	//短路与
+||	//短路或 
+!	//非
+</code></pre></td></tr></table>
 </div>
 </div>
     </article>

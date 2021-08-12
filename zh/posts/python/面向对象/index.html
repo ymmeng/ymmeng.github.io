@@ -1339,7 +1339,7 @@
 <meta property="og:type" content="article">
 <meta property="og:description" content="The Zzo theme for Hugo example site.">
 
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.68.3" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1929,16 +1929,16 @@
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>   <span class="c1">#定义一个人类</span>
-    <span class="n">role</span> <span class="o">=</span> <span class="s1">&#39;person&#39;</span>  <span class="c1">#人的角色属性都是人</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>   <span class="c1">#定义一个人类</span>
+    <span class="n">role</span> <span class="o">=</span> <span class="s1">&#39;person&#39;</span>  <span class="c1">#人的角色属性都是人</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">name</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>  <span class="c1"># 每一个角色都有自己的昵称;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>  <span class="c1"># 每一个角色都有自己的昵称;</span>
         
-    <span class="k">def</span> <span class="nf">walk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>  <span class="c1">#人都可以走路，也就是有一个走路方法</span>
+    <span class="k">def</span> <span class="nf">walk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>  <span class="c1">#人都可以走路，也就是有一个走路方法</span>
         <span class="k">print</span><span class="p">(</span><span class="s2">&#34;person is walking...&#34;</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">Person</span><span class="o">.</span><span class="n">role</span><span class="p">)</span>  <span class="c1">#查看人的role属性</span>
-<span class="k">print</span><span class="p">(</span><span class="n">Person</span><span class="o">.</span><span class="n">walk</span><span class="p">)</span>  <span class="c1">#引用人的走路方法，注意，这里不是在调用</span>
+<span class="k">print</span><span class="p">(</span><span class="n">Person</span><span class="o">.</span><span class="n">role</span><span class="p">)</span>  <span class="c1">#查看人的role属性</span>
+<span class="k">print</span><span class="p">(</span><span class="n">Person</span><span class="o">.</span><span class="n">walk</span><span class="p">)</span>  <span class="c1">#引用人的走路方法，注意，这里不是在调用</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>语法：对象名 = 类型(参数)</p>
@@ -1949,8 +1949,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="err">对象名</span><span class="o">.</span><span class="err">属性名</span><span class="p">)</span> <span class="c1">#查看属性</span>
-<span class="k">print</span><span class="p">(</span><span class="err">对象名</span><span class="o">.</span><span class="err">方法名</span><span class="p">)</span> <span class="c1">#调用方法</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="err">对象名</span><span class="o">.</span><span class="err">属性名</span><span class="p">)</span> <span class="c1">#查看属性</span>
+<span class="k">print</span><span class="p">(</span><span class="err">对象名</span><span class="o">.</span><span class="err">方法名</span><span class="p">)</span> <span class="c1">#调用方法</span>
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="类的补充">类的补充</h4>
@@ -1975,13 +1975,13 @@
 <span class="err">类名</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">:</span><span class="err">查出的是一个字典，</span><span class="n">key为属性名</span><span class="err">，</span><span class="n">value为属性值</span>
 
 <span class="err">二：特殊的类属性</span>
-<span class="err">类名</span><span class="o">.</span><span class="vm">__name__</span><span class="c1"># 类的名字(字符串)</span>
-<span class="err">类名</span><span class="o">.</span><span class="vm">__doc__</span><span class="c1"># 类的文档字符串</span>
-<span class="err">类名</span><span class="o">.</span><span class="n">__base__</span><span class="c1"># 类的第一个父类(在讲继承时会讲)</span>
-<span class="err">类名</span><span class="o">.</span><span class="vm">__bases__</span><span class="c1"># 类所有父类构成的元组(在讲继承时会讲)</span>
-<span class="err">类名</span><span class="o">.</span><span class="vm">__dict__</span><span class="c1"># 类的字典属性</span>
-<span class="err">类名</span><span class="o">.</span><span class="vm">__module__</span><span class="c1"># 类定义所在的模块</span>
-<span class="err">类名</span><span class="o">.</span><span class="vm">__class__</span><span class="c1"># 实例对应的类(仅新式类中)</span>
+<span class="err">类名</span><span class="o">.</span><span class="vm">__name__</span><span class="c1"># 类的名字(字符串)</span>
+<span class="err">类名</span><span class="o">.</span><span class="vm">__doc__</span><span class="c1"># 类的文档字符串</span>
+<span class="err">类名</span><span class="o">.</span><span class="n">__base__</span><span class="c1"># 类的第一个父类(在讲继承时会讲)</span>
+<span class="err">类名</span><span class="o">.</span><span class="vm">__bases__</span><span class="c1"># 类所有父类构成的元组(在讲继承时会讲)</span>
+<span class="err">类名</span><span class="o">.</span><span class="vm">__dict__</span><span class="c1"># 类的字典属性</span>
+<span class="err">类名</span><span class="o">.</span><span class="vm">__module__</span><span class="c1"># 类定义所在的模块</span>
+<span class="err">类名</span><span class="o">.</span><span class="vm">__class__</span><span class="c1"># 实例对应的类(仅新式类中)</span>
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="小节">小节</h4>
@@ -2005,7 +2005,7 @@
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="err">类名：</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="err">类名：</span>
 	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="err">参数</span><span class="mi">1</span><span class="err">，参数</span><span class="mi">2</span><span class="p">)</span><span class="err">：</span>
         <span class="bp">self</span><span class="o">.</span><span class="err">对象的属性</span><span class="mi">1</span> <span class="o">=</span> <span class="err">参数</span><span class="mi">1</span>
         <span class="bp">self</span><span class="o">.</span><span class="err">对象的属性</span><span class="mi">2</span> <span class="o">=</span> <span class="err">参数</span><span class="mi">2</span>
@@ -2015,12 +2015,12 @@
     <span class="k">def</span> <span class="err">方法名</span><span class="mi">2</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span><span class="k">pass</span>
     
     
-<span class="err">对象名</span> <span class="o">=</span> <span class="err">类名</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>  <span class="c1">#对象就是实例，代表一个具体的东西</span>
-                  <span class="c1">#类名() : 类名+括号就是实例化一个类，相当于调用了__init__方法</span>
-                  <span class="c1">#括号里传参数，参数不需要传self，其他与init中的形参一一对应</span>
-                  <span class="c1">#结果返回一个对象</span>
-<span class="err">对象名</span><span class="o">.</span><span class="err">对象的属性</span><span class="mi">1</span>   <span class="c1">#查看对象的属性，直接用 对象名.属性名 即可</span>
-<span class="err">对象名</span><span class="o">.</span><span class="err">方法名</span><span class="p">()</span>     <span class="c1">#调用类中的方法，直接用 对象名.方法名() 即可</span>
+<span class="err">对象名</span> <span class="o">=</span> <span class="err">类名</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>  <span class="c1">#对象就是实例，代表一个具体的东西</span>
+                  <span class="c1">#类名() : 类名+括号就是实例化一个类，相当于调用了__init__方法</span>
+                  <span class="c1">#括号里传参数，参数不需要传self，其他与init中的形参一一对应</span>
+                  <span class="c1">#结果返回一个对象</span>
+<span class="err">对象名</span><span class="o">.</span><span class="err">对象的属性</span><span class="mi">1</span>   <span class="c1">#查看对象的属性，直接用 对象名.属性名 即可</span>
+<span class="err">对象名</span><span class="o">.</span><span class="err">方法名</span><span class="p">()</span>     <span class="c1">#调用类中的方法，直接用 对象名.方法名() 即可</span>
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="对象之间的交互">对象之间的交互</h3>
@@ -2121,10 +2121,10 @@
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">pi</span> <span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">radius</span>
 
 
-<span class="n">circle</span> <span class="o">=</span>  <span class="n">Circle</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1">#实例化一个圆</span>
-<span class="n">area1</span> <span class="o">=</span> <span class="n">circle</span><span class="o">.</span><span class="n">area</span><span class="p">()</span> <span class="c1">#计算圆面积</span>
-<span class="n">per1</span> <span class="o">=</span> <span class="n">circle</span><span class="o">.</span><span class="n">perimeter</span><span class="p">()</span> <span class="c1">#计算圆周长</span>
-<span class="k">print</span><span class="p">(</span><span class="n">area1</span><span class="p">,</span><span class="n">per1</span><span class="p">)</span> <span class="c1">#打印圆面积和周长</span>
+<span class="n">circle</span> <span class="o">=</span>  <span class="n">Circle</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1">#实例化一个圆</span>
+<span class="n">area1</span> <span class="o">=</span> <span class="n">circle</span><span class="o">.</span><span class="n">area</span><span class="p">()</span> <span class="c1">#计算圆面积</span>
+<span class="n">per1</span> <span class="o">=</span> <span class="n">circle</span><span class="o">.</span><span class="n">perimeter</span><span class="p">()</span> <span class="c1">#计算圆周长</span>
+<span class="k">print</span><span class="p">(</span><span class="n">area1</span><span class="p">,</span><span class="n">per1</span><span class="p">)</span> <span class="c1">#打印圆面积和周长</span>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="面向对象的三大特征">面向对象的三大特征</h2>
@@ -2172,7 +2172,7 @@
 </span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#继承的代码实现</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#继承的代码实现</span>
 <span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span>
 
     <span class="k">def</span> <span class="nf">eat</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -2200,7 +2200,7 @@
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;汪汪叫&#39;</span><span class="p">)</span>
 
 
-<span class="c1"># ######### 执行 #########</span>
+<span class="c1"># ######### 执行 #########</span>
 
 <span class="n">c1</span> <span class="o">=</span> <span class="n">Cat</span><span class="p">(</span><span class="s1">&#39;小白家的小黑猫&#39;</span><span class="p">)</span>
 <span class="n">c1</span><span class="o">.</span><span class="n">eat</span><span class="p">()</span>
@@ -2263,9 +2263,9 @@
 </span><span class="s1">    人和狗都是动物，所以创造一个Animal基类
 </span><span class="s1">    &#39;&#39;&#39;</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">aggressivity</span><span class="p">,</span> <span class="n">life_value</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>  <span class="c1"># 人和狗都有自己的昵称;</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">aggressivity</span> <span class="o">=</span> <span class="n">aggressivity</span>  <span class="c1"># 人和狗都有自己的攻击力;</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">life_value</span> <span class="o">=</span> <span class="n">life_value</span>  <span class="c1"># 人和狗都有自己的生命值;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>  <span class="c1"># 人和狗都有自己的昵称;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">aggressivity</span> <span class="o">=</span> <span class="n">aggressivity</span>  <span class="c1"># 人和狗都有自己的攻击力;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">life_value</span> <span class="o">=</span> <span class="n">life_value</span>  <span class="c1"># 人和狗都有自己的生命值;</span>
 
     <span class="k">def</span> <span class="nf">eat</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> is eating&#39;</span><span class="o">%</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
@@ -2329,8 +2329,8 @@
 <span class="k">class</span> <span class="nc">B</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">hahaha</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">hahaha</span><span class="p">()</span>
-        <span class="c1">#super(B,self).hahaha()</span>
-        <span class="c1">#A.hahaha(self)</span>
+        <span class="c1">#super(B,self).hahaha()</span>
+        <span class="c1">#A.hahaha(self)</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;B&#39;</span><span class="p">)</span>
 
 <span class="n">a</span> <span class="o">=</span> <span class="n">A</span><span class="p">()</span>
@@ -2373,7 +2373,7 @@
     <span class="k">def</span> <span class="nf">fuqian</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">money</span><span class="p">):</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;微信支付了</span><span class="si">%s</span><span class="s1">元&#39;</span><span class="o">%</span><span class="n">money</span><span class="p">)</span>
 
-<span class="n">p</span> <span class="o">=</span> <span class="n">Wechatpay</span><span class="p">()</span> <span class="c1">#不调就报错了</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">Wechatpay</span><span class="p">()</span> <span class="c1">#不调就报错了</span>
 </code></pre></td></tr></table>
 </div>
 </div><h5 id="抽象类">抽象类</h5>
@@ -2441,17 +2441,17 @@
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;from E&#39;</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">F</span><span class="p">(</span><span class="n">D</span><span class="p">,</span><span class="n">E</span><span class="p">):</span>
-    <span class="c1"># def test(self):</span>
-    <span class="c1">#     print(&#39;from F&#39;)</span>
+    <span class="c1"># def test(self):</span>
+    <span class="c1">#     print(&#39;from F&#39;)</span>
     <span class="k">pass</span>
 <span class="n">f1</span><span class="o">=</span><span class="n">F</span><span class="p">()</span>
 <span class="n">f1</span><span class="o">.</span><span class="n">test</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="vm">__mro__</span><span class="p">)</span> <span class="c1">#只有新式才有这个属性可以查看线性列表，经典类没有这个属性</span>
+<span class="k">print</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="vm">__mro__</span><span class="p">)</span> <span class="c1">#只有新式才有这个属性可以查看线性列表，经典类没有这个属性</span>
 
-<span class="c1">#新式类继承顺序:F-&gt;D-&gt;B-&gt;E-&gt;C-&gt;A</span>
-<span class="c1">#经典类继承顺序:F-&gt;D-&gt;B-&gt;A-&gt;E-&gt;C</span>
-<span class="c1">#python3中统一都是新式类</span>
-<span class="c1">#pyhon2中才分新式类与经典类</span>
+<span class="c1">#新式类继承顺序:F-&gt;D-&gt;B-&gt;E-&gt;C-&gt;A</span>
+<span class="c1">#经典类继承顺序:F-&gt;D-&gt;B-&gt;A-&gt;E-&gt;C</span>
+<span class="c1">#python3中统一都是新式类</span>
+<span class="c1">#pyhon2中才分新式类与经典类</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>查看继承顺序用、：对象名.mro 来查看</p>
@@ -2537,19 +2537,19 @@
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#其实这仅仅这是一种变形操作</span>
-<span class="c1">#类中所有双下划线开头的名称如__x都会自动变形成：_类名__x的形式：</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#其实这仅仅这是一种变形操作</span>
+<span class="c1">#类中所有双下划线开头的名称如__x都会自动变形成：_类名__x的形式：</span>
 
 <span class="k">class</span> <span class="nc">A</span><span class="p">:</span>
-    <span class="n">__N</span><span class="o">=</span><span class="mi">0</span> <span class="c1">#类的数据属性就应该是共享的,但是语法上是可以把类的数据属性设置成私有的如__N,会变形为_A__N</span>
+    <span class="n">__N</span><span class="o">=</span><span class="mi">0</span> <span class="c1">#类的数据属性就应该是共享的,但是语法上是可以把类的数据属性设置成私有的如__N,会变形为_A__N</span>
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">__X</span><span class="o">=</span><span class="mi">10</span> <span class="c1">#变形为self._A__X</span>
-    <span class="k">def</span> <span class="nf">__foo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="c1">#变形为_A__foo</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__X</span><span class="o">=</span><span class="mi">10</span> <span class="c1">#变形为self._A__X</span>
+    <span class="k">def</span> <span class="nf">__foo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="c1">#变形为_A__foo</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;from A&#39;</span><span class="p">)</span>
     <span class="k">def</span> <span class="nf">bar</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">__foo</span><span class="p">()</span> <span class="c1">#只有在类内部才可以通过__foo的形式访问到.</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__foo</span><span class="p">()</span> <span class="c1">#只有在类内部才可以通过__foo的形式访问到.</span>
 
-<span class="c1">#A._A__N是可以访问到的，即这种操作并不是严格意义上的限制外部访问，仅仅只是一种语法意义上的变形</span>
+<span class="c1">#A._A__N是可以访问到的，即这种操作并不是严格意义上的限制外部访问，仅仅只是一种语法意义上的变形</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>这种自动变形的特点：</p>
@@ -2684,7 +2684,7 @@ from A
     <span class="k">def</span> <span class="nf">AAA</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;delete的时候运行我啊&#39;</span><span class="p">)</span>
 
-<span class="c1">#只有在属性AAA定义property后才能定义AAA.setter,AAA.deleter</span>
+<span class="c1">#只有在属性AAA定义property后才能定义AAA.setter,AAA.deleter</span>
 <span class="n">f1</span><span class="o">=</span><span class="n">Foo</span><span class="p">()</span>
 <span class="n">f1</span><span class="o">.</span><span class="n">AAA</span>
 <span class="n">f1</span><span class="o">.</span><span class="n">AAA</span><span class="o">=</span><span class="s1">&#39;aaa&#39;</span>
@@ -2762,20 +2762,20 @@ from A
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">abc</span>
-<span class="k">class</span> <span class="nc">Animal</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">abc</span><span class="o">.</span><span class="n">ABCMeta</span><span class="p">):</span> <span class="c1">#同一类事物:动物</span>
+<span class="k">class</span> <span class="nc">Animal</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">abc</span><span class="o">.</span><span class="n">ABCMeta</span><span class="p">):</span> <span class="c1">#同一类事物:动物</span>
     <span class="nd">@abc.abstractmethod</span>
     <span class="k">def</span> <span class="nf">talk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">pass</span>
 
-<span class="k">class</span> <span class="nc">People</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span> <span class="c1">#动物的形态之一:人</span>
+<span class="k">class</span> <span class="nc">People</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span> <span class="c1">#动物的形态之一:人</span>
     <span class="k">def</span> <span class="nf">talk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;say hello&#39;</span><span class="p">)</span>
 
-<span class="k">class</span> <span class="nc">Dog</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span> <span class="c1">#动物的形态之二:狗</span>
+<span class="k">class</span> <span class="nc">Dog</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span> <span class="c1">#动物的形态之二:狗</span>
     <span class="k">def</span> <span class="nf">talk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;say wangwang&#39;</span><span class="p">)</span>
 
-<span class="k">class</span> <span class="nc">Pig</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span> <span class="c1">#动物的形态之三:猪</span>
+<span class="k">class</span> <span class="nc">Pig</span><span class="p">(</span><span class="n">Animal</span><span class="p">):</span> <span class="c1">#动物的形态之三:猪</span>
     <span class="k">def</span> <span class="nf">talk</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;say aoao&#39;</span><span class="p">)</span>
 </code></pre></td></tr></table>
@@ -2820,13 +2820,13 @@ from A
 <span class="n">dog</span><span class="o">=</span><span class="n">Dog</span><span class="p">()</span>
 <span class="n">pig</span><span class="o">=</span><span class="n">Pig</span><span class="p">()</span>
 
-<span class="c1">#peo、dog、pig都是动物,只要是动物肯定有talk方法</span>
-<span class="c1">#于是我们可以不用考虑它们三者的具体是什么类型,而直接使用</span>
+<span class="c1">#peo、dog、pig都是动物,只要是动物肯定有talk方法</span>
+<span class="c1">#于是我们可以不用考虑它们三者的具体是什么类型,而直接使用</span>
 <span class="n">peo</span><span class="o">.</span><span class="n">talk</span><span class="p">()</span>
 <span class="n">dog</span><span class="o">.</span><span class="n">talk</span><span class="p">()</span>
 <span class="n">pig</span><span class="o">.</span><span class="n">talk</span><span class="p">()</span>
 
-<span class="c1">#更进一步,我们可以定义一个统一的接口来使用</span>
+<span class="c1">#更进一步,我们可以定义一个统一的接口来使用</span>
 <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
     <span class="n">obj</span><span class="o">.</span><span class="n">talk</span><span class="p">()</span>
 </code></pre></td></tr></table>
@@ -2855,7 +2855,7 @@ from A
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#二者都像鸭子,二者看起来都像文件,因而就可以当文件一样去用</span>
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="c1">#二者都像鸭子,二者看起来都像文件,因而就可以当文件一样去用</span>
 <span class="k">class</span> <span class="nc">TxtFile</span><span class="p">:</span>
     <span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">pass</span>
@@ -2947,7 +2947,7 @@ issubclass(Bar, Foo)
 <span class="k">del</span> <span class="n">f1</span>
 <span class="k">print</span><span class="p">(</span><span class="s1">&#39;-------&gt;&#39;</span><span class="p">)</span>
 
-<span class="c1">#输出结果</span>
+<span class="c1">#输出结果</span>
 <span class="err">执行我啦</span>
 <span class="o">-------&gt;</span>
 </code></pre></td></tr></table>
@@ -3035,8 +3035,8 @@ __init__ called.
         <span class="k">print</span><span class="p">(</span><span class="s1">&#39;__call__&#39;</span><span class="p">)</span>
 
 
-<span class="n">obj</span> <span class="o">=</span> <span class="n">Foo</span><span class="p">()</span> <span class="c1"># 执行 __init__</span>
-<span class="n">obj</span><span class="p">()</span>       <span class="c1"># 执行 __call__</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="n">Foo</span><span class="p">()</span> <span class="c1"># 执行 __init__</span>
+<span class="n">obj</span><span class="p">()</span>       <span class="c1"># 执行 __call__</span>
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="with和__enter____exit__">with和<code>__enter__</code>,<code>__exit__</code></h3>
